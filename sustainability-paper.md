@@ -87,34 +87,102 @@
 ## Methodik
 
 * diachrone Untersuchung
-* Korpora: DTA, DWDS, Newspapers (1779-2016)
-* Analyse mittels DiaCollo (Jurish XXXX) und der D* OpenSearch API
+* Korpora: Referenz- und Zeitungskorpora (aggregiert): DTA, DWDS, Newspapers (1776-2016)
+* verwendete Analysewerkzeuge:
+	* DiaCollo (Jurish XXXX)
+	* D* OpenSearch API
+	* DWDS-Wortverlaufskurve
 
 ## Ergebnisse
 
 ### Frequenzanalyse
 
-* Anfrage: `$l=/nachhaltig/ || $l=/Nachhaltigkeit/` ab dem Jahr 1600 (frühestes Dokument im Korpus)
+* Anfrage: `$l=/nachhaltig/i` ab dem Jahr 1776
+	* matcht alle Tokens, in deren Lemma die Zeichenkette "nachhaltig" vorkommt (unabhängig von Groß- und Kleinschreibung), also etwa "nachhaltig", "unnachhaltig", "nachhaltigste", "Nachhaltigkeit", "UN-Nachhaltigkeitsziel", "Weltnachhaltigkeitsgipfel"
 	* http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&date=1779%3A*&slice=10&score=fm&kbest=0&cutoff=&profile=1&format=hichart&groupby=%24p&eps=0
 	* http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=kwic&corpus=&limit=50&ctx=20&q=(%24l%3D%2Fnachhaltig%2F+||+%24l%3D%2FNachhaltigkeit%2F)+%23SEPARATE+%23asc_date[1600-00-00%2C2020-99-99]&_s=submit
+	* https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1776&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=full&sort=date_asc&limit=50
 
-Insgesamt: 28.160 Treffer im Korpus
-* frühester Treffer: 1779
-* spätester Treffer: 2016
+Insgesamt: 28.230 Treffer im Korpus
+* frühester Korpusbeleg: 1779
+* spätester Korpusbeleg: 2016
 * allein im Zeitraum 1987–2016 (seit Erscheinen des Brundtland-Berichts): 24.166 Treffer
 	* 29/237: 12% des Zeitraums
 	* 24166/28160: 86% der Treffer
 	* aber: Korpusgröße variiert über die Zeit → Frequency per Million
 
-* Time Series
-http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=hist&pformat=svg&q=%28%24l%3D%2Fnachhaltig%2F+%7C%7C+%24l%3D%2FNachhaltigkeit%2F%29+%23SEPARATE+%23asc_date%5B1779-00-00%2C2016-99-99%5D&_s=submit&n=date%2Bclass&smooth=none&sg=1&sl=10&w=3&wb=0&pr=0&xr=1779%3A2016&yr=0%3A*&psize=840%2C480
+* [D*/public Time Series](http://kaskade.dwds.de/dstar/public/hist.perl?fmt=hist&pformat=svg&q=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&n=date%2Bclass&smooth=none&sg=1&grid=1&sl=10&w=0&wb=0&pr=0&xr=1779%3A2016&yr=0%3A*&psize=840%2C480)
+* [DWDS-Verlaufskurve](https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1779%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi)
 
 ### Kontextanalysen
 
-#### 1779–1850
-http://kaskade.dwds.de/dstar/public/dstar.perl?q=%28%24l%3D%2Fnachhaltig%2F+%7C%7C+%24l%3D%2FNachhaltigkeit%2F%29+%23SEPARATE+%23asc_date%5B1779-00-00%2C1850-99-99%5D&fmt=html&start=1&limit=50&ctx=20&debug=
+* [DWDS-Korpusbelege](https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1779&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=50)
 
-* 238 Treffer (0,49 pro Millionen Tokens)
+* 1776–1845
+* 1846–1915
+* 1916–1985
+* 1985–2016
+
+#### 1776–1845
+
+##### Frequenzanalyse
+
+* 206 Treffer (0,16 pro Million Tokens)
+* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F%3D2+%23fmin+1&_s=submit&date=1776%3A1845&slice=10&score=fm&kbest=1&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0) (Tabelle: Rohfrequenz und normalisierte Frequenz)
+	* Rohfrequenzen so niedrig, dass beobachtete Ausschläge auf einzelne, umfangreiche Werke zurückzuführen sind, in denen "nachhaltig" sehr häufig verwendet wird:
+	 	1. 1806–1815: "Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809."
+	 	2. 1836–1845: "Ranke, Leopold von: Die römischen Päpste. Bd. 2. Berlin, 1836."
+
+##### Kontexte
+
+* Belege für Übergang in Allgemeinsprache, erste Belege dafür aber bereits vor 1800, in den Bedeutungen "dauerhaft" oder "lange Zeit andauernd":
+	* "Der ordentliche Zehrpfennig reichte freilich nicht weit; aber der Spar- und der Nothpfennig waren deſto nachhaltiger, und ließen uns unterwegens nicht darben." (Musäus, Johann Karl August: Physiognomische Reisen. Bd. 4. Altenburg, 1779. #303)
+	* "Wilhelm hatte ſich in dieſem Falle befunden, er ſchien nunmehr zum erſtenmal zu merken, daß er äußerer Hülfsmittel bedürfe, um nachhaltig zu wirken." (Goethe, Johann Wolfgang von: Wilhelm Meisters Lehrjahre. Bd. 4. Frankfurt (Main) u. a., 1796. #198)
+	* "Es ist eine Krankheit unserer encyklopädischen Zeit, daß sie die Anstrengung eines ernsten nachhaltigen Denkens in ihrer Flüchtigkeit scheut, gleichwohl aber mit den Resultaten desselben äußerlich großthun möchte." (Allgemeine Zeitung. Beilage zu Nr. 106. Stuttgart, 15. April 1804. #10)
+	* " So iſt die Sprache, aus einzelnen Empfindungslauten, bald ſprudelnd wie ein nachhaltiger Quell, bald ſtillſtehend wie ein bewegungsloſes Waſſer. " (Jahn, Friedrich Ludwig: Deutsches Volksthum. Lübeck, 1810. #22)
+	* "nachhaltige Verstimmung" (Jean Paul: Dritte Abteilung Briefe. 1822. In: Jean Pauls Sämtliche Werke. Historisch-kritische Ausgabe. Abt. 3, Bd. 8. Berlin, 1955.)
+	* "nachhaltiges Interesse" (Rumohr, Karl Friedrich von: Italienische Forschungen. T. 3. Berlin u. a., 1831.)
+	* "eine stille, sehr nachhaltige Neigung" (Mörike, Eduard: Maler Nolten. Bd. 2 Stuttgart, 1832.)
+	* "eine nachhaltige gewaltige Hülfe" (Ranke, Leopold von: Die römischen Päpste. Bd. 1. Berlin, 1834.)
+	* "zu einer nachhaltigen Wirksamkeit" (Ranke, Leopold von: Die römischen Päpste. Bd. 1. Berlin, 1834.)
+	* "nachhaltiger Eindruck" (Clausewitz, Carl von: Vom Kriege. Bd. 3. Berlin, 1834.)
+	* "der Schaden wird weit nachhaltiger" (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+	* "und sie [die Jünglinge] für Alles, was die Vor- und Mitwelt Großes hervorgebracht hat in Religion, Wissenschaft und Leben, für alle künftigen Tage des Wirkens nachhaltigst zu begeistern" (Diesterweg, Adolph: Über das Verderben auf den deutschen Universitäten. Essen, 1836.)
+	* "nachhaltiges Vertrauen" (Ranke, Leopold von: Die römischen Päpste. Bd. 2. Berlin, 1836.)
+	* "nachhaltigen Widerstand" (Ranke, Leopold von: Die römischen Päpste. Bd. 2. Berlin, 1836.)
+	* "nachhaltiger Herzstärkung" (Varnhagen von Ense, Karl August: Denkwürdigkeiten und vermischte Schriften. Bd. 2. Mannheim, 1837.)
+	* "nachhaltigen Humor und Eifer" (Varnhagen von Ense, Karl August: Denkwürdigkeiten und vermischte Schriften. Bd. 2. Mannheim, 1837.)
+	* "daß der Alte [...] erst zwar nachhaltig den Kopf schüttelte" (Immermann, Karl: Münchhausen. Bd. 1. Düsseldorf, 1838.)
+	* "der einzige Ausgangspunkt nachhaltiger Verbesserungen" (Allgemeine Zeitung. Beilage zu Nr. 17. Stuttgart, 17. Januar 1840.)
+	* "nachhaltiger Feindschaft" (Allgemeine Zeitung. Beilage zu Nr. 63. Stuttgart, 3. März 1840.)
+	* "nachhaltige Erheiterung" (Allgemeine Zeitung. Beilage zu Nr. 22. Stuttgart, 22. Januar 1840.)
+	* "ein dichtes nachhaltiges Feldgeschrei" (Allgemeine Zeitung. Beilage zu Nr. 92. 01.04.1840.)
+	* "nachhaltigen Schaden" (Euler, Karl (Hrsg.): Jahrbücher der deutschen Turnkunst. Bd. 1. Danzig, 1843.)
+	* "Auch ergiebt sich das Talent nur Solchen, welche etwas nachhaltig wollen." (Dahlmann, Friedrich Christoph: Geschichte der französischen Revolution bis auf die Stiftung der Republik. Leipzig, 1845.)
+	* "nachhaltigere Folgen" (Griesinger, Wilhelm: Die Pathologie und Therapie der psychischen Krankheiten, für Ärzte und Studierende. Stuttgart, 1845.)
+
+* mit Bezug zu Landwirtschaft
+	* selbst dort oft eindeutig nicht fachsprachlich (in der Bedeutung "dauerhaft") verwendet:
+		* "Es erhellt hieraus von selbst, daß sich ohne Kapital oder nachhaltigen Kredit das landwirthschaftliche Gewerbe nicht glücklich betreiben lasse" (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809.)
+		* "Selbst habe ich den Versuch nicht nachhaltig damit gemacht, weil die Sache nicht in meine Wirthschaftsverhältnisse paßte." (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 4. Berlin, 1812.)
+
+* oft im betriebswirtschaftlich-finanziellen Kontext, als Synonym zu "dauerhaft", "langfristig":
+	* "nachhaltigen Vermehrung der Produktion" (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809.)
+	* "wenn sich der Ertrag nach einer Reihe von Jahren nachhaltig vergrößert." (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809.)
+	* "Man muß daher als ordentlicher Wirth suchen [...] den Erwerb so sicher und dauerhaft als möglich zu erhalten, d. h. die Wirthschaft nachhaltig einzurichten und zu führen" (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+
+* im landwirtschaftlichen Kontext: in der Bedeutung "lange Zeit wirksam", insbesondere in Bezug auf Dünger:
+	* "und somit strohigen Dünger macht, der zwar keine so schnelle Wirkung wie der Pferch äußert, aber ungleich nachhaltiger ist" (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 2. Berlin, 1810.)
+	* "um den Dünger nachhaltiger zu machen" (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+
+* vereinzelt: Verwendung in der ursprünglichen Bedeutung im Kontext der Forstwirtschaft:
+	* "Die weitere Pflege der Holzpflanzen (§. 151.) hat zum Zwecke, in der kürzesten Zeit mit den geringsten Kosten, ohne die Waldwirthschaft zu zerstören, den größten Naturalertrag aus denselben zu beziehen und den Wald nachhaltig zu machen." (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+
+* aber auch schon Übertragung auf andere natürliche Ressourcen:
+	* "daß die Jagd nachhaltig, d. h. ohne daß sie mit dem Wildstande eingeht, betrieben und benutzt werden kann" (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+
+* erste Belege im volkswirtschaftlichen Kontext, auch hier in der Bedeutung "dauerhaft":
+	* "Die bedeutende, nachhaltige und stetige Vermehrung der Production und Consumtion vermehrt die Steuer-Entrichtungs-Fähigkeit in gleichem Verhältniß." (List, Friedrich: Das deutsche National-Transport-System in volks- und staatswirthschaftlicher Beziehung. Altona u. a., 1838.)
 
 ##### Kollokationen
 http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&date=1779%3A1850&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
@@ -126,29 +194,45 @@ http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q
 	* "Indeſſen verfehlte das Teſtament des Magiſters nicht, ſeine Wirkung nachhaltig zu äußern." (Immermann, Karl: Münchhausen. Bd. 2. Düsseldorf, 1839. #370)
 	* "Noch groͤßer und nachhaltiger wird aber dieſe Wirkung, wenn man eine, auch nur ſchwache Miſtduͤngung damit verbindet." (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 2. Berlin, 1810. #306)
 
+
+#### 1846–1915
+
+##### Frequenzanalyse
+
+* ? Treffer (? pro Million Tokens)
+* Entwicklung pro Dekade()
+
 ##### Kontexte
 
-* Belege für Übergang in Allgemeinsprache, erste Belege dafür aber bereits vor 1800:
-	* "Der ordentliche Zehrpfennig reichte freilich nicht weit; aber der Spar- und der Nothpfennig waren deſto nachhaltiger, und ließen uns unterwegens nicht darben." (Musäus, Johann Karl August: Physiognomische Reisen. Bd. 4. Altenburg, 1779. #303)
-	* "Wilhelm hatte ſich in dieſem Falle befunden, er ſchien nunmehr zum erſtenmal zu merken, daß er äußerer Hülfsmittel bedürfe, um nachhaltig zu wirken." (Goethe, Johann Wolfgang von: Wilhelm Meisters Lehrjahre. Bd. 4. Frankfurt (Main) u. a., 1796. #198)
-	* "Es ist eine Krankheit unserer encyklopädischen Zeit, daß sie die Anstrengung eines ernsten nachhaltigen Denkens in ihrer Flüchtigkeit scheut, gleichwohl aber mit den Resultaten desselben äußerlich großthun möchte." (Allgemeine Zeitung. Beilage zu Nr. 106. Stuttgart, 15. April 1804. #10)
-	* " So iſt die Sprache, aus einzelnen Empfindungslauten, bald ſprudelnd wie ein nachhaltiger Quell, bald ſtillſtehend wie ein bewegungsloſes Waſſer. " (Jahn, Friedrich Ludwig: Deutsches Volksthum. Lübeck, 1810. #22)
+* allgemeinsprachliche Verwendung in den Bedeutungen "dauerhaft" oder "lange Zeit anhaltend":
+	* "nachhaltiger Beifall" (Neue Rheinische Zeitung. Nr. 129. Köln, 29. Oktober 1848. Zweite Ausgabe.)
+	* "eine tiefe und nachhaltige Erschütterung des materiellen Wohlstandes" (Neue Rheinische Zeitung. Nr. 243. Köln, 11. März 1849. Zweite Beilage.)
 
-* mit Bezug zu Landwirtschaft
-	* selbst dort oft eindeutig nicht fachsprachlich (in der Bedeutung "dauerhaft") verwendet:
-		* "Es erhellt hieraus von ſelbſt, daß ſich ohne Kapital oder nachhaltigen Kredit das landwirthſchaftliche Gewerbe nicht gluͤcklich betreiben laſſe, und daß jeder Verſuch, dieſes zu thun, jaͤmmerlich ablaufe, und das Gewerbe auf der niedrigſten Stufe erhalte. " (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809. #60)
-		* " Ich geſtehe deshalb, daß ich beſtimmte Salarien vorziehe, wobei aber die Ausſicht auf Gratifikationen gegeben werden kann, wenn ſich der Ertrag nach einer Reihe von Jahren nachhaltig vergroͤßert. " (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809. #216 )
-		* " Selbſt habe ich den Verſuch nicht nachhaltig damit gemacht, weil die Sache nicht in meine Wirthſchaftsverhaͤltniſſe paßte. " (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 4. Berlin, 1812. #466 )
-
-- [ ] Kontexte sichten ab 51
-http://kaskade.dwds.de/dstar/public/dstar.perl?ctx=20&q=%28%24l%3D%2Fnachhaltig%2F%20%7C%7C%20%24l%3D%2FNachhaltigkeit%2F%29%20%23SEPARATE%20%23asc_date%5B1779-00-00%2C1850-99-99%5D&start=51&limit=50&fmt=html
-
-#### 1890
+##### Kollokationen
 
 * Kollokat: Benutzung; ausschließlich im forstwirtschaftlichen Kontext:
 	* "nachhaltige forstwirtschaftliche Benutzung"
 	* "Die kleinen, einer nachhaltigen Benutzung nicht fähigen Parzellen"
 * Treffer: http://kaskade.dwds.de/dstar/public/?fmt=kwic&corpus=&limit=10&ctx=&q=%28%24l%3D%40%27nachhaltig%27%29+%23SEPARATE+%23asc_date%5B1890-00-00%2C1899-99-99%5D&_s=submit
+
+----
+
+#### [Zeitraum]
+
+##### Frequenzanalyse
+
+* ? Treffer (? pro Million Tokens)
+* Entwicklung pro Dekade()
+
+##### Kontexte
+
+*
+
+##### Kollokationen
+
+*
+
+----
 
 ## Diskussion
 
