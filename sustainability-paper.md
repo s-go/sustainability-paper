@@ -1,5 +1,7 @@
 # Der Nachhaltigkeitsbegriff – multifuktionale Zauberformel oder inhaltsleeres Plastikwort?
 
+[TOC]
+
 ## Einleitung
 
 * Nachhaltigkeitsbegriff: Entwicklung
@@ -112,16 +114,16 @@ Insgesamt: 28.230 Treffer im Korpus
 	* aber: Korpusgröße variiert über die Zeit → Frequency per Million
 
 * [D*/public Time Series](http://kaskade.dwds.de/dstar/public/hist.perl?fmt=hist&pformat=svg&q=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&n=date%2Bclass&smooth=none&sg=1&grid=1&sl=10&w=0&wb=0&pr=0&xr=1779%3A2016&yr=0%3A*&psize=840%2C480)
-* [DWDS-Verlaufskurve](https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1779%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi)
+* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1776%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
 
 ### Kontextanalysen
 
 * [DWDS-Korpusbelege](https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1779&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=50)
 
-* 1776–1845
-* 1846–1915
-* 1916–1985
-* 1985–2016
+* 1776:1845
+* 1846:1915
+* 1916:1985
+* 1986:2016
 
 #### 1776–1845
 
@@ -185,7 +187,7 @@ Insgesamt: 28.230 Treffer im Korpus
 	* "Die bedeutende, nachhaltige und stetige Vermehrung der Production und Consumtion vermehrt die Steuer-Entrichtungs-Fähigkeit in gleichem Verhältniß." (List, Friedrich: Das deutsche National-Transport-System in volks- und staatswirthschaftlicher Beziehung. Altona u. a., 1838.)
 
 ##### Kollokationen
-http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&date=1779%3A1850&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
+http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=submit&date=1776%3A1845&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
 
 * Betrieb
 http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q=NEAR%28+%28%24l%3D%2F%5BNn%5Dachhaltig%2F%29+%3D1%2C+%28%24l%3D%40%27Betrieb%27+WITH+%24p%3D%40%27NN%27%29+%3D2%2C+8%29+%23SEPARATE+%23asc_date%5B1779-00-00%2C1850-99-99%5D&_s=submit
@@ -199,21 +201,103 @@ http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q
 
 ##### Frequenzanalyse
 
-* ? Treffer (? pro Million Tokens)
-* Entwicklung pro Dekade()
+* [606 Treffer (0,47 pro Million Tokens)](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F%3D2+%23fmin+1&_s=submit&date=1846%3A1915&slice=0&score=fm&kbest=1&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F%3D2+%23fmin+1&_s=submit&date=1846%3A1915&slice=10&score=fm&kbest=1&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
 
 ##### Kontexte
 
 * allgemeinsprachliche Verwendung in den Bedeutungen "dauerhaft" oder "lange Zeit anhaltend":
+	* "einen nachhaltigen Eindruck" (Schoppe, Amalie: Der Prophet. Bd. 2. Jena, 1846.)
+	* "nachhaltigen Trost" (Ideler, Karl Wilhelm: Der religiöse Wahnsinn, erläutert durch Krankengeschichten. Ein Beitrag zur Geschichte der religiösen Wirren der Gegenwart. Halle (Saale), 1847.)
+	* "nachhaltiges Interesse" (Heckert, Adolph (Hrsg.): Handbuch der Schulgesetzgebung Preußens. Berlin, 1847.)
+	* "zum nachhaltigen Wohle des neuen Bundes" (Neue Rheinische Zeitung. Nr. 58. Köln, 28. Juli 1848. Beilage.)
 	* "nachhaltiger Beifall" (Neue Rheinische Zeitung. Nr. 129. Köln, 29. Oktober 1848. Zweite Ausgabe.)
 	* "eine tiefe und nachhaltige Erschütterung des materiellen Wohlstandes" (Neue Rheinische Zeitung. Nr. 243. Köln, 11. März 1849. Zweite Beilage.)
+	* "von nachhaltiger wissenschaftlicher Bedeutung" (Jahn, Otto: Gottfried Herrmann. Eine Gedächnissrede. Leipzig, 1849.)
+	* "ihn [den Haß gegen die Juden] nachhaltig unschädlich zu machen" (Die Bayerische Presse. Nr. 140. Würzburg, 12. Juni 1850.)
+	* "Nachhaltiger war die Macht der aetolischen Eidgenossenschaft" (Mommsen, Theodor: Römische Geschichte. Bd. 1: Bis zur Schlacht von Pydna. Leipzig, 1854.)
+	* "ein reines und nachhaltiges Vergnügen" (Keller, Gottfried: Der grüne Heinrich. Bd. 3. Braunschweig, 1854.)
+	* "so finden wir [...] keine Persönlichkeit unter ihnen, welche unsere Aufmerksamkeit nachhaltig zu fesseln vermöchte." (Brunn, Heinrich: Geschichte der griechischen Künstler. T. 2, Abt. 1. Braunschweig, 1856.)
+	* "Es wird aber der Ruhm des einen von kurzer Dauer, der des andern nachhaltig sein" (Krane, Friedrich von: Die Dressur des Reitpferdes (Campagne- und Gebrauchs-Pferdes). Münster, 1856.)
+	* "Selbst der Roheste [...] weiß jedoch selten nachhaltigen Vortheil daraus zu ziehen" (Droste-Hülshoff, Annette von: Letzte Gaben. Nachgelassene Blätter. Hrsg. v. Levin Schücking. Hannover, 1860.)
+	* "Auch kleinere Glocken werden in Japan mit hölzernem Hammer geschlagen, niemals mit metallenem Klöpfel; der so erzeugte Klang ist nicht so hell, aber voller, weicher und nachhaltiger als bei unseren Glocken." (Berg, Albert: Die preussische Expedition nach Ost-Asien. Bd. 1. Berlin, 1864.)
+	* "nachhaltige Wirkung" (Carus, Julius Victor: Geschichte der Zoologie bis auf Johannes Müller und Charles Darwin. München, 1872.)
+	* "nachhaltigen Einfluß" (Carus, Julius Victor: Geschichte der Zoologie bis auf Johannes Müller und Charles Darwin. München, 1872.)
+	* "nachhaltige Unterstützung" (Bluntschli, Johann Caspar: Allgemeine Statslehre. Stuttgart, 1875.)
+	* "ohne nachhaltigen Erfolg" (Werner, Reinhold von: Erinnerungen und Bilder aus dem Seeleben. Berlin, 1880.)
+	* "von nachhaltiger Bedeutung" (Fontane, Theodor: Wanderungen durch die Mark Brandenburg. Bd. 4: Spreeland. Berlin, 1882.)
+	* "Da mußte doch eine tiefe, nachhaltige Sympathie vorhanden sein" (Conradi, Hermann: Adam Mensch. Leipzig, [1889].)
+	* "Der Geschmack und Geruch seines Fleisches hat viel von Knoblauch an sich und ist leider sehr nachhaltig" (Steinen, Karl von den: Unter den Naturvölkern Zentral-Brasiliens. Berlin, 1894.)
+	* "eine starke, freilich nicht nachhaltige Erregung" (Treitschke, Heinrich von: Deutsche Geschichte im Neunzehnten Jahrhundert. Bd. 5: Bis zur März-Revolution. Leipzig, 1894.)
+	* "Eine nachhaltige Belebung der Industrie" (Vossische Zeitung (Abend-Ausgabe), 03.03.1909)
+	* "Mir ist aus jenem Leben, so anstrengend es auch war, viel nachhaltige Freude erwachsen." (Bismarck, Hedwig von: Erinnerungen aus dem Leben einer 95jährigen. In: Simons, Oliver (Hg.) Deutsche Autobiographien 1690-1930, Berlin: Directmedia Publ. 2004 [1910], S. 7630)
+	* "starken und nachhaltigen Eindruck" (Brümmer, Franz: Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart. Bd. 5. 6. Aufl. Leipzig, 1913.)
+	* "wo das geistige Leben der Musenstadt ihn auf das nachhaltigste beeinflußte" (Brümmer, Franz: Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart. Bd. 5. 6. Aufl. Leipzig, 1913.)
+
+* permanent, fest (in Bezug auf Arbeit oder Einkommen)
+	* "wegen des auskömmlichen und nachhaltigen Verdienstes" (Lassalle, Ferdinand: Die indirekte Steuer und die Lage der arbeitenden Klassen. Zürich, 1863.)
+	* "Auf nachhaltige Arbeit hatte er sich nie verstanden" (Treitschke, Heinrich von: Deutsche Geschichte im neunzehnten Jahrhundert. Bd. 3: Bis zur Juli-Revolution. Leipzig, 1885.)
+
+* Nachhaltigkeit im Sinne von "Ausdauer"
+	* "Da zeigt sich eben wieder die Kraft und Konsequenz des Aelplers, -- der Ernst und die Ausdauer, der feste Wille und der Muth, nicht nur in Dingen des alltäglichen Müssens und Sollens, sondern auch in Sachen eigenen Entschlusses, eigener freier Meinung: so zäh wie er in seinen physischen Anstrengungen ist, ebenso nachhaltig ist er auch in den Resultaten seines Nachdenkens, seiner Willensfreiheit." (Berlepsch, Hermann Alexander: Die Alpen in Natur- und Lebensbildern. Leipzig, 1871.)
+	* "Auch die Armen an Geist, an Vorkenntnissen und an Geld können ihnen Angemessenes und Erreichbares ermitteln [...], wenn sie nur Willenskraft und Nachhaltigkeit besitzen." (Michelis, Arthur: Reiseschule für Touristen und Curgäste. Leipzig, 1869.)
+	* "Was den Frauen fehlt, ist ja nach der Männer Urtheil eben die nachhaltige Tüchtigkeit." (Lewald, Fanny: Für und wider die Frauen. Berlin, 1870.)
+	* "so werde das preußische Heer sich ohne Zweifel vollzähliger, kampfwilliger, schlagfertiger und nachhaltiger zeigen als das russische" (Treitschke, Heinrich von: Deutsche Geschichte im neunzehnten Jahrhundert. Bd. 4: Bis zum Tode König Friedrich Wilhelms III. Leipzig, 1889.)
+	* "Nachhaltige revolutionäre Leidenschaft zeigten diese gutherzigen deutschen Naturen sehr selten" (Treitschke, Heinrich von: Deutsche Geschichte im neunzehnten Jahrhundert. Bd. 4: Bis zum Tode König Friedrich Wilhelms III. Leipzig, 1889.)
+	* "ihr fehlte die Nachhaltigkeit, und alle guten Anwandlungen gingen wieder vorüber" (Fontane, Theodor: Effi Briest. Berlin, 1896.)
+	* "Dem Staatssekretär gebührt unsere volle Anerkennung für den Eifer und die Nachhaltigkeit, mit der er den auf dem Rechtsgebiete nothwendigen Reformen vorarbeitet." (Vossische Zeitung (Abend-Ausgabe), 05.03.1903)
+
+* betriebswirtschaftlich
+	* "eine nachhaltige Erwerbsquelle" (Brehm, Alfred Edmund: Illustrirtes Thierleben. Bd. 6. Hildburghausen, 1869.)
+
+* im forstwirtschaftlichen Kontext, mit eindeutig fachsprachlicher Bedeutung:
+	* "Ausserdem erfordert die nachhaltige Holzproduktion selbst einen Vorrath lebendigen Holzes, welcher das zehn- bis vierzigfache der jährlichen Nutzung beträgt." (Kirchhof, Friedrich: Handbuch der landwirthschaftlichen Betriebslehre. Dessau, 1852. Zitiert nach: Marx, Karl: Das Kapital. Bd. 2. Buch II: Der Cirkulationsprocess des Kapitals. Hamburg, 1885.)
+	* "Die Forstwirtschaft in den Staatswaldungen hat die Nachhaltigkeit der Nutzung als obersten Grundsatz zu befolgen und ihren Wirtschaftsplan auf sorgfältige Ertragsermittelungen zu stützen." (Bayerisches Forstgesetz von 1852, Art. 2. Zitiert nach Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "Nach Pfeils Berechnung beläuft sich der jährliche Ertrag eines Morgens Staatsforst in Preußen auf -- 16 Sgr., natürlich bei nachhaltiger und pfleglicher Bewirthschaftung der Waldungen, welche aus dem Walde jährlich nicht mehr an Holzmasse hinwegnimmt, als jährlich am stehen bleibenden Holze zuwächst." (Roßmäßler, Emil Adolf: Der Wald. Leipzig u. a., 1863.)
+	* "Man hat daher in neuerer Zeit das Harzen in solchen Waldungen sehr beschränkt und zum Theil ganz aufgegeben, bei denen es darauf abgesehen ist, sie zu erhalten und also nachhaltig zu bewirthschaften." (Roßmäßler, Emil Adolf: Der Wald. Leipzig u. a., 1863.)
+	* "Der jeweilige Holzertrag eines Waldes hängt fast allein von dem gegenwärtigen Vorrat an nutzbarem und aus früheren Jahren herstammendem Zuwachs ab, dagegen entscheidet der fortwährende jährliche Zuwachs über die späteren Holznutzungen und deren nachhaltigen Fortbezug." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "20 Proz. des Privatwaldes sind demnach dem freien Verkehr bezüglich der Eigentumsverminderung entzogen und hinsichtlich der nachhaltigen Bewirtschaftung sicher gestellt." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "Wie die in Oesterreich gemachten Erfahrungen beweisen , sind die Aktiengesellschaften zwar sehr geschickt, den Wald zu exploitieren, aber eine nachhaltige, konservative Forstwirtschaft ist ihrem Wesen fremd." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.) – Aktualität! :-)
+	* "Unter allen Umständen besitzen jedoch die regelmässigen Bestände des Wirtschaftswaldes mit ihrer geordneten Altersabstufung einen erheblichen, für die Nachhaltigkeit und Stetigkeit des Betriebes äusserst wichtigen Vorzug." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "Für ihre Gewinnung gilt im allgemeinen der Grundsatz, dass hierdurch die Nachhaltigkeit der Holzproduktion nicht beeinträchtigt werden dürfe." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "die auf nachhaltige Wirtschaft nicht die geringste Rücksicht nehmende Waldausschlachtung" (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "Anderseits sollen aber die Betriebspläne unter Zugrundelegung der berechtigten Wünsche und vorhandenen Bedürfnisse der Nutzniesser angefertigt werden, ohne den Genuss der gegenwärtigen Generation weiter zu schmälern, als es die Rücksicht auf die Nachhaltigkeit erfordert." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+
+* im forstwirtschaftlichen Kontext, mit allgemeinsprachlicher Bedeutung:
+	* "die nachhaltige Sicherheit des Ertrags" (Roßmäßler, Emil Adolf: Der Wald. Leipzig u. a., 1863.) (!)
+	* "Da die Verwesung des Düngers in dem geschlossenen, feuchten Thonboden nur langsam vor sich geht, aber um so nachhaltiger wirkt, so düngt man seltener aber mit um so größeren Mengen auf einmal." (Krafft, Guido: Lehrbuch der Landwirthschaft auf wissenschaftlicher und praktischer Grundlage. Bd. 1. Berlin, 1875.)
+	* "eine nachhaltige Steigerung der Erträge" (Krafft, Guido: Lehrbuch der Landwirthschaft auf wissenschaftlicher und praktischer Grundlage. Bd. 1. Berlin, 1875.)
+	* "nachhaltige Verdauungsstörungen" (Krafft, Guido: Lehrbuch der Landwirthschaft auf wissenschaftlicher und praktischer Grundlage. Bd. 3. Berlin, 1876.)
+	* "Bei der Landwirtschaft lässt sich die jährliche Crescenz unmittelbar nutzen, die Forstwirtschaft gestattet dieses nicht, sondern erfordert, um jährlich eine gleichgrosse, nachhaltige Rente zu erzielen, das Vorhandensein eines Holzkapitals von einer gewissen Grösse, welches erst durch Anhäufung vieler Jahreszuwachse in einer bestimmten Flächengruppierung gebildet werden muss." (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
+	* "es schicken daher die Waldungen den Flüssen im Sommerhalbjahre einen nachhaltigeren Tribut zu, als unter sonst gleichen Umständen das freie Feld" (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.) (!)
+
+* im forstwirtschaftlichen Kontext, mehrdeutig:
+	* an der Grenze zwischen fachsprachlicher und eher betriebswirtschaftlicher Bedeutung: "Für den Landwirth als Unternehmer tritt noch die wirthschaftliche Forderung hinzu von einer bestimmten Bodenfläche die größte und werthvollste Menge an Pflanzen und Thieren mit Rücksicht auf die Nachhaltigkeit des Ertrages und den wirtschaftlichen zu Nutzen erzielen." (Krafft, Guido: Lehrbuch der Landwirthschaft auf wissenschaftlicher und praktischer Grundlage. Bd. 1. Berlin, 1875.)
+
+* in Bezug auf andere natürliche Ressourcen
+	* "eine gründliche Untersuchung der Lage und Nachhaltigkeit der Torflager" (Die Bayerische Presse. Nr. 189. Würzburg, 8. August 1850.)
+	* "zum Zwecke einer nachhaltigen Fischereiausübung" (Schwappach, Adam: Forstpolitik, Jagd- und Fischereipolitik. Leipzig, 1894.)
 
 ##### Kollokationen
 
-* Kollokat: Benutzung; ausschließlich im forstwirtschaftlichen Kontext:
-	* "nachhaltige forstwirtschaftliche Benutzung"
-	* "Die kleinen, einer nachhaltigen Benutzung nicht fähigen Parzellen"
-* Treffer: http://kaskade.dwds.de/dstar/public/?fmt=kwic&corpus=&limit=10&ctx=&q=%28%24l%3D%40%27nachhaltig%27%29+%23SEPARATE+%23asc_date%5B1890-00-00%2C1899-99-99%5D&_s=submit
+http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=submit&date=1846%3A1915&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
+
+
+#### 1916–1985
+
+##### Frequenzanalyse
+
+* [3071 Treffer (2.39 pro Million Tokens)](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1916%3A1985&slice=0&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1916%3A1985&slice=10&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1916%3A1985&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
+
+##### Kontexte
+
+*
+
+##### Kollokationen
+
+http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&date=1916%3A1985&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
 
 ----
 
@@ -221,8 +305,9 @@ http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q
 
 ##### Frequenzanalyse
 
-* ? Treffer (? pro Million Tokens)
-* Entwicklung pro Dekade()
+* [? Treffer (? pro Million Tokens)]()
+* [Entwicklung pro Dekade]()
+* DWDS-Wortverlaufskurve
 
 ##### Kontexte
 
