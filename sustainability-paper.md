@@ -202,7 +202,9 @@ http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q
 ##### Frequenzanalyse
 
 * [606 Treffer (0,47 pro Million Tokens)](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F%3D2+%23fmin+1&_s=submit&date=1846%3A1915&slice=0&score=fm&kbest=1&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1846%3A1915&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
 * [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F%3D2+%23fmin+1&_s=submit&date=1846%3A1915&slice=10&score=fm&kbest=1&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+	* vielleicht besser: 10-Jahres-Zeiträume aus DWDS-Wortverlaufskurve statt Dekaden
 
 ##### Kontexte
 
@@ -288,34 +290,51 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 ##### Frequenzanalyse
 
 * [3071 Treffer (2.39 pro Million Tokens)](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1916%3A1985&slice=0&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
-* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1916%3A1985&slice=10&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
 * DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1916%3A1985&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
-
-##### Kontexte
-
-*
+* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1916%3A1985&slice=10&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
 
 ##### Kollokationen
 
-http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&date=1916%3A1985&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
+* [wichtigste Kollokationen](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&date=1916%3A1985&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0)
+* [Korpusbelege](https://www.dwds.de/r?q=NEAR%28+%28%24l%3D%2F%28%3Fi%3Anachhaltig%29%2F%29+%3D1%2C+%28%24l%3D%40%27Wirkung%27%29+%3D2%2C+8%29&corpus=public&date-start=1916&date-end=1985&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=100)
 
-----
+1. Zinssenkung
+	* "Einzige Therapie gegen den Gewichtsverlust der deutschen Wirtschaft ist nach Meinung des Deutschen Instituts für Wirtschaftsforschung (DIW) eine nachhaltige Zinssenkung." (Berliner Zeitung, 07.01.1994)
+2. Eindruck
+	* "Unter dem nachhaltigen Eindruck der Ereignisse von 1849 rückt Marx noch entschiedener von der "politischen Intervention" ab." (Ball, Hugo: Zur Kritik der deutschen Intelligenz. Bern, 1919.)
+	* "Die unmittelbarsten und nachhaltigsten Eindrücke von Schliemanns Leben und seinen Reisen in die griechische Vergangenheit sind immer noch aus Schliemanns Schriften selber zu gewinnen." (Die Zeit, 26.05.1972, Nr. 21)
+3. Wirkung
+	* "die nachhaltige und einwandfreie Wirkung unserer Schutzpockenimpfung" (Berliner Tageblatt (Abend-Ausgabe), 05.03.1917)
+	* "Um nachhaltigere Wirkungen zu erzielen, bedurfte es anderer Mittel." (Die Zeit, 28.02.1964, Nr. 09)
+4. Forstwirtschaft
+	* "Erst ganz allmählich setzte sich [...] eine geordnete, auf dem Prinzip der Nachhaltigkeit beruhende Forstwirtschaft auch in den USA durch." (Sandermann, Wilhelm: Grundlagen der Chemie und chemischen Technologie des Holzes, Leipzig: Geest & Portig 1956, S. 13)
+	* "Schon seit 200 Jahren ist in der deutschen Forstwirtschaft das Prinzip der "Nachhaltigkeit" bekannt." (Sandermann, Wilhelm: Grundlagen der Chemie und chemischen Technologie des Holzes, Leipzig: Geest & Portig 1956, S. 59)
+	* "Wichtigster Grundsatz der modernen Forstwirtschaft wurde die „Nachhaltigkeit“" (Die Zeit, 19.10.1984, Nr. 43)
 
-#### [Zeitraum]
+* Mit Ausnahme des forstwirtschaftlichen Kontext wird "nachhaltig" hier nahezu immer in seiner allgemeinsprachlichen Bedeutung verwendet.
+* Bemerkenswert ist, dass die Kombination "nachhaltige Entwicklung" in diesem Zeitraum im Korpus kein einziges Mal vorkommt.
+
+#### 1986–2016
 
 ##### Frequenzanalyse
 
-* [? Treffer (? pro Million Tokens)]()
-* [Entwicklung pro Dekade]()
-* DWDS-Wortverlaufskurve
-
-##### Kontexte
-
-*
+* [24.356 Treffer (18.92 pro Million Tokens)](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&date=1986%3A2016&slice=0&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
+* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1986%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
+* [Entwicklung pro Dekade](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi%3D2+%23fmin+1&_s=submit&date=1986%3A2016&slice=10&score=fm&kbest=0&cutoff=&profile=ddc&format=html&groupby=%5B%40const%5D&eps=0)
 
 ##### Kollokationen
 
-*
+* [wichtigste Kollokationen](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&date=1986%3A2016&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0)
+* [Korpusbelege](https://www.dwds.de/r?q=NEAR%28+%28%24l%3D%2F%28%3Fi%3Anachhaltig%29%2F%29+%3D1%2C+%28%24l%3D%40%27Entwicklung%27%29+%3D2%2C+8%29&corpus=public&date-start=1986&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=100)
+
+1. 
+	* "
+2. 
+	* "
+3. 
+	* "
+4. 
+	* "
 
 ----
 
