@@ -327,13 +327,57 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 * [wichtigste Kollokationen](http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&date=1986%3A2016&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0)
 * [Korpusbelege](https://www.dwds.de/r?q=NEAR%28+%28%24l%3D%2F%28%3Fi%3Anachhaltig%29%2F%29+%3D1%2C+%28%24l%3D%40%27Entwicklung%27%29+%3D2%2C+8%29&corpus=public&date-start=1986&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=100)
 
-1. 
+**Wichtigste (und ausgewählte interessante) Kollokationen:**
+
+1. Entwicklung
+	* erste Belege für "nachhaltige Entwicklung" ab 1991, dann hochfrequent – teilweise in fachsprachlicher Bedeutung:
+		* "Trotz solchen Bemühens um eine nachhaltige, ressourcenschonende Entwicklung findet im Süden eine Umweltzerstörung in dramatischem Umfang statt." (Die Zeit, 08.02.1991, Nr. 07)
+		* "Somit fehlt weiterhin ein Modell nachhaltiger, also dauerhafter und umweltverträglicher Entwicklung" (Die Zeit, 20.03.1992, Nr. 13)
+		* "Ziel ist nicht etwa kurzfristiges Wachstum um jeden Preis, sondern nachhaltige Entwicklung, die nicht ihre eigenen Grundlagen auf Dauer zerstört." (Berliner Zeitung, 11.08.1994)
+		* "Wie kann es sein, dass die Generation, die die nachhaltige Entwicklung wirklich betrifft, bei deren Umsetzung nicht mitreden darf?" (Zeit Campus, 15.04.2009, Nr. 03)
+		* "Es werde für mehr Wachstum und Arbeitsplätze sorgen, nachhaltige Entwicklung fördern sowie Produktivität und Lebensstandard sichern." (Die Zeit, 05.10.2015 (online))
+	* ... aber auch in dieser Kollokation allgemeinsprachlich verwendet:
+		* "Die Entwicklungen auf dem Arbeitsmarkt werden nachhaltiger durch Tarifparteien, weltwirtschaftliche Einflüsse, Bundesregierung und Bundesbank oder Bundesgesetzgeber beeinflußt, als eine Landesregierung sie bewirken könnte." (Die Zeit, 27.06.1986, Nr. 27)
+		* "Aber das kann die günstige konjunkturelle Entwicklung nicht nachhaltig stören." (Berliner Zeitung, 09.01.1995)
+		* "Nachhaltig geprägt wird die Entwicklung dieser spezifischen Kindheit durch das sich verändernde Verhältnis zwischen Sohn und Mutter." (Berliner Zeitung, 09.01.1999)
+		* "Und die divergierenden Interessen der Eigentümer neutralisieren die Entwicklung des Unternehmens nachhaltig." (Der Tagesspiegel, 09.12.2000)
+		* "Auch mit ihrer Inszenierung von Hanns Eislers „Johann Faustus“ prägte sie nachhaltig die Entwicklung des freien Theaters." (Der Tagesspiegel, 03.03.2005)
+		* "Doch Martin Kind ist entschlossen, und so wird sein Name möglicherweise schon bald für eine Entwicklung stehen, die den deutschen Fußball nachhaltig ändern könnte." (Die Zeit, 20.11.2008, Nr. 48)
+		* "Die wirtschaftliche Entwicklung ist erfreulicherweise viel kräftiger und viel nachhaltiger, als es im Frühjahr den Anschein hatte." (Die Zeit, 07.10.2010 (online))
+		* "In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen "erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten" zu behindern." (Die Zeit, 06.11.2015 (online))
+2. Wachstum
 	* "
-2. 
+3. stören
 	* "
-3. 
+4. ökologisch
 	* "
-4. 
+1. Erholung
+	* "
+1. Weltgipfel
+	* "
+1. verändern
+	* "
+1. Landwirtschaft
+	* "
+1. Aufschwung
+	* "
+1. Geldanlage
+	* "
+1. Tourismus
+	* "
+1. Wirtschaft
+	* "
+1. Mobilität
+	* "
+1. Nutzung
+	* "
+1. Verbesserung
+	* "
+1. Vertrauen
+	* "
+1. Politik
+	* "
+1. Rendite
 	* "
 
 ----
