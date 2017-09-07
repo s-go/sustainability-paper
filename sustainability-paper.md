@@ -8,14 +8,14 @@
 	* durchaus erwünschte Ausweitung auf ... (Milenniumsziele)
 * Kritik
 * Wird der Begriff der Nachhaltigkeit sinnvoll und klar definiert auf viele verschiedene Kontexte angewendet oder zunehmend wahllos, diffus und inhaltsleer gebraucht?
-	* → diachrone korpuslinguistische Analyse 1779-2016
+	* → diachrone korpuslinguistische Analyse 1776-2016
 
 ## Relevante Literatur
 
 * Ohlmeier & Brunold (2015)
 * Ninck (1997)
 * Zürcher (1965)
-* Allerdings gibt es meines Wissens bisher keine korpuslinguistische Untersuchung, die diese Thesen empirisch unterfüttert.
+* Allerdings gibt es meines Wissens bisher keine korpuslinguistische Untersuchung, die diese Thesen empirisch überprüft.
 
 ## Der Nachhaltigkeitsbegriff – Entwicklung und Definition
 
@@ -346,39 +346,115 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 		* "Die wirtschaftliche Entwicklung ist erfreulicherweise viel kräftiger und viel nachhaltiger, als es im Frühjahr den Anschein hatte." (Die Zeit, 07.10.2010 (online))
 		* "In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen "erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten" zu behindern." (Die Zeit, 06.11.2015 (online))
 2. Wachstum
-	* "
+	* fachsprachlich
+		* "Am Zuckerhut hatte auch Weltbank-Präsident Lewis Preston versprochen, seine Behörde müsse „eine führende Rolle bei der Einleitung einer neuen Ära internationaler Zusammenarbeit mit dem Ziel eines nachhaltigen, ökologisch verträglichen Wachstums einnehmen“." (Die Zeit, 16.10.1992, Nr. 43)
+		* "Großes Gewicht legten Gro Harlem Brundtland und ihre Mitautoren vor allem auf ein „nachhaltiges Wachstum“, also ein Wirtschaftswachstum ohne irreparable Umweltschäden und Raubbau an den Naturressourcen." (Die Zeit, 18.11.1994, Nr. 47)
+		* "Wem es ernsthaft um „nachhaltiges Wachstum“ geht, der muß für die Verminderung aller fossilen Energieträger eintreten – und dazu zählt zweifellos auch das Erdgas." (Die Zeit, 18.11.1994, Nr. 47)
+	* allgemeinsprachlich, bezogen auf Wirtschaftswachstum (in dieser Bedeutung besonders frequent seit der Finanz- und Währungskrise ab 2007)
+		* "Damit würden, so die Autoren der Studie, bessere Voraussetzungen für ein nachhaltiges Wachstum von Investitionen, Produktion und Beschäftigung bestehen als zu Anfang der sechziger Jahre." (Die Zeit, 31.12.1993, Nr. 01)
+		* "Eine stabile Währung sei eine unverzichtbare Grundlage für nachhaltiges Wachstum und mehr Beschäftigung." (Berliner Zeitung, 30.12.1996)
+		* "Langfristig strebe Pixelpark ein nachhaltiges und vor allem profitables Wachstum an." (Berliner Zeitung, 28.06.2001)
+		* "Bartz bekräftigte, Yahoo sei auf dem Weg zu einem «nachhaltigen Wachstum bei Umsatz und Gewinn»." (Die Zeit, 20.04.2011 (online))
+		* "Um wieder ein nachhaltiges Wachstum zu erlangen, seien weitere Schuldenerleichterungen notwendig." (Die Zeit, 25.09.2016 (online))
+	* unklar
+		* "Und noch seien „die Weichen für ein nachhaltiges wirtschaftliches Wachstum in den östlichen Regionen, das nicht durch öffentliche Kassen alimentiert wird, nicht gestellt“." (Die Zeit, 25.10.1991, Nr. 44)
 3. stören
-	* "
+	* allgemeinsprachlich
+		* "dann ist das Vertrauen zu den Eltern nachhaltig gestört" (Die Zeit, 01.08.1986, Nr. 32)
+		* "Auch weiße Männerbeine mit Sandalen stören die Exotik nachhaltig" (Die Zeit, 28.08.1987, Nr. 36)
+		* "Die Verabschiedung des Papiers hat das Verhältnis zwischen Deutschland und der Türkei nachhaltig gestört." (Die Zeit, 28.07.2016 (online))
 4. ökologisch
-	* "
+	* fachsprachlich
+		* "„Wir haben das klare Ziel, ein ökologisch nachhaltig wachsendes Unternehmen zu werden“, erklärt der für Umweltschutz zuständige Vizepräsident Robert Bringer." (Die Zeit, 15.05.1992, Nr. 21)
+		* "Dies soll nach Kriterien einer „vernünftigen ökologischen und nachhaltigen Bewirtschaftung“ geschehen." (Die Zeit, 11.02.1994, Nr. 07)
+		* "Das einfache Leben ohne Energie, Chemie, Mobilität, gestützt auf ein Minimum an Ressourcenverbrauch das ist nicht nur Steinzeitkommunismus, sondern auch ökologische Nachhaltigkeit auf niedrigstem Niveau." (Berliner Zeitung, 07.05.1998)
+		* "Die Informationsgesellschaft, so Rolf Kreibich, geschäftsführender Direktor des Instituts für Zukunftsstudien und Technologiebewertung (IZT), könne nur überleben, wenn sie sich auf Dauer zur ökologischen Nachhaltigkeit bekenne." (Der Tagesspiegel, 07.07.1998)
+		* "Wir müssen ökonomische Effektivität, ökologische Nachhaltigkeit und das Ziel der Gerechtigkeit zu einem neuen Wirtschaftsstil verschmelzen." (Der Tagesspiegel, 22.12.2000)
+		* "Geprägt ist sie durch das Bestreben, wirtschaftliches Wachstum und Wettbewerb sozialverträglich und ökologisch nachhaltig zu gestalten." (Die Zeit, 13.12.2012, Nr. 51)
+		* "Vereint könnten Bayer und Monsanto noch mehr dazu beitragen, die stark wachsende Weltbevölkerung auf eine ökologisch nachhaltige Weise zu ernähren." (Die Zeit, 15.09.2016 (online))
 1. Erholung
-	* "
-1. Weltgipfel
-	* "
+	* allgemeinsprachlich (in Bezug auf Wirtschaft, Wertpapiere, Rohstoffe und Währungen)
+		* "Auf eine nachhaltige Erholung der Kakaopreise ist kaum noch zu hoffen" (Die Zeit, 25.05.1990, Nr. 22)
+		* "Im Grunde traut er – trotz markanter Aufwärtsbewegung – den Börsen eine nachhaltige Erholung gar nicht zu." (Die Zeit, 15.03.1991, Nr. 12)
+		* "Sie unterstütze weiter eine nachhaltige Erholung des Dollar zum Yen." (Berliner Zeitung, 23.09.1995)
+		* "Mögliche Hoffnungen auf eine nachhaltige Erholung wurden allerdings von der New Yorker Wall Street enttäuscht." (Berliner Zeitung, 19.04.1997)
+		* "Eine schnelle nachhaltige Erholung des Euro wird derzeit nicht erwartet." (Berliner Zeitung, 12.08.2000)
+		* "Die wirtschaftliche Erholung ist aus Sicht der EZB noch nicht nachhaltig." (Die Zeit, 08.10.2009, Nr. 42)
+		* "Viele Ökonomen meinen, dass der US-Arbeitsmarkt für eine nachhaltige wirtschaftliche Erholung um monatlich rund 200000 Stellen wachsen müsse." (Die Zeit, 07.02.2014 (online))
 1. verändern
-	* "
+	* allgemeinsprachlich
+		* "Der Erste Weltkrieg veränderte die Situation nachhaltig." (Die Zeit, 15.05.1987, Nr. 21)
+		* "Das Automobil, Wirtschaftswundertraum von Wohlstand und Freiheit, hat die Landschaft nachhaltig verändert." (Die Zeit, 08.07.1988, Nr. 28)
+		* "Auf dieser ITB wird erstmals deutlich, wie nachhaltig das Netz den Reisemarkt verändern könnte." (Berliner Zeitung, 11.03.1999)
 1. Landwirtschaft
-	* "
+	* fachsprachlich
+		* "Denn es fehlt an verbindlichen Definitionen, wie eine biologisch verträgliche, nachhaltige Landwirtschaft aussehen soll." (Berliner Zeitung, 06.06.1997)
+		* "So heiße nachhaltige Nahrungsmittelproduktion für ihn nicht nur nachhaltige Landwirtschaft." (Der Tagesspiegel, 09.05.1998)
+		* "Das Umweltbundesamt (UBA) hat schon einmal darüber nachgedacht - und beispielsweise in der Verringerung des nationalen Fleischkonsums "eine sehr effiziente Möglichkeit" erkannt, die Landwirtschaft nachhaltiger zu gestalten." (Die Zeit, 18.05.2000, Nr. 21)
+		* "Die Grünen-Politikerin forderte, nur noch nachhaltige Landwirtschaft finanziell zu fördern." (Die Zeit, 11.01.2011 (online))
 1. Aufschwung
-	* "
+	* allgemeinsprachlich (→ wirtschaftlicher Aufschwung/Konjunkturaufschwung)
+		* "Damals 1974, als Mexiko ein Ölexportland wurde, standen die Aussichten auf einen nachhaltigen wirtschaftlichen Aufschwung gar nicht schlecht." (Die Zeit, 20.06.1986, Nr. 26)
+		* "Es fehlt am nötigen Geld, um einen nachhaltigen Aufschwung an den Börsen zu finanzieren." (Die Zeit, 19.10.1990, Nr. 43)
+		* "Erst ein nachhaltiger Aufschwung würde Raum für eine deutlichere Lohnsteigerung geben, ohne daß es zu weiteren Entlassungen komme." (Berliner Zeitung, 28.01.1998)
+		* "Mit den neuesten Arbeitslosenzahlen aus Nürnberg seien bei den Deutschen die Zweifel an der Nachhaltigkeit des Aufschwungs erneut gewachsen, so das Institut." (Berliner Zeitung, 05.09.1998)
+		* "Zunächst müssten weitere Konjunkturzahlen beweisen, dass der Aufschwung wirklich nachhaltig ist." (Der Tagesspiegel, 05.04.2004)
+	* allgemeinsprachlich (außerhalb des wirtschaftlichen Kontexts)
+		* "Unter der Leitung des Dirigenten Angelo Mariani nahm das Theater 1860-72 einen nachhaltigen Aufschwung." (Fath, Rolf: Spielstätten - B. In: Reclams Opernlexikon, Berlin: Directmedia Publ. 2001 [1998], S. 7359)
+		* "Aber bis zu einem nachhaltigen Aufschwung der SPD ist es noch weit; wenn er denn überhaupt kommt." (Der Tagesspiegel, 12.10.2004)
 1. Geldanlage
-	* "
-1. Tourismus
-	* "
+	* fachsprachlich
+		* "Und Fondsmanager haben es immer öfter mit Anlegern zu tun, die Wert auf nachhaltige Geldanlagen legen – nicht nur was den Gewinn betrifft." (Der Tagesspiegel, 03.06.2004)
+			* Hier wird die Ambiguität von "nachhaltig" (wirtschaftlich/ökologisch) explizit angesprochen!
+		* "Diese versprechen oft eine nachhaltige Geldanlage und fördern Firmen, die ressourcenschonende Land- oder Forstwirtschaft betreiben." (Die Zeit, 16.10.2008, Nr. 43)
+		* "Nachhaltig orientierte Geldanlagen, die nach ökologischen, sozialen und ethischen Kriterien konzipiert sind, eignen sich auch gut zur privaten Altersvorsorge, meinen 61 Prozent der Deutschen." (Die Zeit, 05.06.2009, Nr. 19)
+1. Tourismus – sinnvolle Übertragung auf neue Domäne möglich
+	* fachsprachlich
+		* "Der "nachhaltige Tourismus", seit dem Umweltgipfel von Rio ein beliebtes Thema für Kongresse und Sonntagsreden, ist nach Einschätzung des Mexikaners bislang nicht mehr als ein "Lippenbekenntnis"." (Die Zeit, 22.03.1996, Nr. 13)
+		* "Nachhaltiger Tourismus versuche auf aufwendige Fernreisen zu verzichten, erläutert Biedenkapp." (Berliner Zeitung, 11.01.2000)
+		* "Sie definierte nachhaltigen Tourismus als "verantwortungsbewusstes Reisen, das die Umwelt schützt und das Wohlbefinden der einheimischen Bevölkerung aufrechterhält"." (Die Zeit, 17.06.2015, Nr. 24)
 1. Wirtschaft
-	* "
+	* fachsprachlich
+		* "Das auf dem Erdgipfel in Rio beschlossene Aktionsprogramm für nachhaltiges Wirtschaften, die Agenda 21, enthält die richtigen Vorschläge." (Berliner Zeitung, 17.03.1995)
+		* "Es gehört nämlich mittlerweile zum ökonomischen Standardwissen, daß Schritte in Richtung Nachhaltigkeit der Wirtschaft eher nutzen als schaden." (Die Zeit, 11.03.1999, Nr. 11)
+		* "Zusätzlich könnten Subventionen für mehr Energieeffizienz und umweltfreundliche Technologien den Übergang hin zu einer nachhaltigeren Wirtschaft erleichtern." (Die Zeit, 23.06.2012, Nr. 26)
+		* "Allerdings ist Aldi nicht der erste Lebensmittelhändler, der die Öffentlichkeit regelmäßig über seine Bemühungen um nachhaltiges Wirtschaften informiert." (Die Zeit, 14.07.2016 (online))
 1. Mobilität
-	* "
+	* fachsprachlich
+		* "Hoher Wirkungsgrad und die Möglichkeit, regenerativ hergestellte Kraftstoffe zu verwenden, machten diesen Antrieb zu einem Meilenstein auf dem Weg zur nachhaltigen Mobilität." (Berliner Zeitung, 02.11.2000)
+		* "Diese Mobilität nachhaltig zu machen, ist die Herausforderung des soeben begonnenen 21. Jahrhunderts." (Der Tagesspiegel, 15.02.2001)
+		* "Denn künftige Mobilität wird sich, um nachhaltig zu sein, nicht nur auf "grüne" Autos und "grüne" Energien beschränken können." (Der Tagesspiegel, 15.02.2001)
+		* ""So stärken wir diejenigen, die an der Zukunft der emissionsfreien und nachhaltigen Mobilität mitwirken wollen", heißt es im Beschluss." (Die Zeit, 13.11.2016 (online))
 1. Nutzung
-	* "
+	* fachsprachlich
+		* "Kein einziges Projekt zur „nachhaltigen Nutzung des Regenwaldes“ ist spruchreif." (Die Zeit, 24.01.1992, Nr. 05)
+		* "Eine umsichtige, nachhaltige Nutzung dieser natürlichen Ressource sei umweltverträglicher als die industrielle Intensivzucht von Geflügel, Rindern und Schweinen." (Die Zeit, 31.12.1993, Nr. 01)
+		* "Es wird also künftig darauf ankommen, einen Ausgleich zu schaffen zwischen den Bedürfnissen dieser Menschen und einer nachhaltigen Nutzung und Erhaltung wertvoller biologischer Ressourcen." (Die Zeit, 09.12.1994, Nr. 50)
+		* "Die nachhaltige Nutzung von Wäldern birgt sogar ein großes Klimaschutzpotenzial." (Die Zeit, 15.10.2009, Nr. 43)
+		* "Im Mittelpunkt steht die nachhaltige Nutzung der Ozeane sowie der Meeres- und Küstenschutz." (Die Zeit, 15.06.2012 (online))
+		* "Dank seiner Erfahrung im kommerziellen Satellitengeschäft strebe das Großherzogtum "eine globale Führungsrolle bei der nachhaltigen Nutzung von Weltraumressourcen" an" (Die Zeit, 03.06.2016 (online))
+	* allgemeinsprachlich: "langfristig"
+		* "Das einzig richtige Zeichen wäre eine nachhaltige und konsequente Nutzung des Insiderwissens, das beide zweifellos anbieten könnten." (Die Zeit, 25.10.2016 (online))
+	* allgemeinsprachlich – fragwürdig
+		* in Bezug auf Fußballstadien
+			* "Große Skepsis herrscht noch in Bezug auf die nachhaltige Nutzung der Arenen." (Die Zeit, 03.06.2010 (online))
+			* "Die nachhaltige Nutzung des Olympiastadions und des gesamten Olympiaparks wird auch am Mittwoch eine der Kernbotschaften der Münchner sein." (Die Zeit, 03.07.2011 (online))
+		* "Die CeBIT hat sich in diesem Jahr das Thema "Datability" auf die Fahnen geschrieben - ein Kunstwort aus dem Begriff Big Data und englischen Worten wie ability, sustainability, responsibility, also den Möglichkeiten der nachhaltigen und verantwortungsvollen Nutzung großer Datenmengen." (Die Zeit, 16.01.2014 (online))
 1. Verbesserung
-	* "
-1. Vertrauen
-	* "
+	* allgemeinsprachlich: "langfristig"
+		* "Statt dessen solle das Geld für eine nachhaltige Verbesserung der Situation in den staatlichen Schulen verwandt werden." (Berliner Zeitung, 02.10.1996)
+		* "Nur eine länger anhaltende Phase hoher Wachstumsraten von drei Prozent und mehr könnte zu einer nachhaltigen Verbesserung der Arbeitsmarktlage führen, so Flassbeck." (Berliner Zeitung, 08.01.1997)
+		* "Zu einer nachhaltigen Verbesserung der öffentlichen Finanzen kann die Ausschüttung nur einen begrenzten Beitrag leisten." (Der Tagesspiegel, 30.05.1997)
+		* "Eine nachhaltige Verbesserung im Zugverkehr werde es aber erst dann geben, wenn die Bahn wieder über eine Reserveflotte verfüge." (Die Zeit, 08.10.2012 (online))
 1. Politik
-	* "
-1. Rendite
-	* "
+	* fachsprachlich
+		* "Eine nachhaltige, die künftigen Generationen berücksichtigende Politik erfordert einen Rückzug des Staates in dem Sinne, dass seine Leistungen seiner gegenwärtigen Leistungsfähigkeit entsprechen und kein Vorgriff auf zukünftige Leistungsfähigkeit erfolgt." (Die Zeit, 21.10.1999, Nr. 43)
+		* "Die Kilometergeldpauschale zu erhöhen, wäre das Gegenteil von nachhaltiger Politik." (Der Tagesspiegel, 04.06.2000)
+		* "Nachhaltige Politik bestehe nicht aus Umweltschutzmaßnahmen für wenige, sondern aus einer veränderten Wirtschaftsweise für alle." (Die Zeit, 11.10.2007, Nr. 42)
+	* allgemeinsprachlich
+		* "Die Demokratische Linke will eine lange Amtszeit für eine nachhaltige Politik und pocht auf die Rechte von Migranten." (Die Zeit, 19.06.2012, Nr. 25)
+		* "Eine nachhaltige und verlässliche Politik, die Wort hält, ist ein Anker für Vertrauen." (Die Zeit, 25.11.2014 (online))
+	* oft unklar!
 
 ----
 
