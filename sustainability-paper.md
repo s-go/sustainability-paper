@@ -82,7 +82,7 @@
 
 ### Fragestellungen
 
-* Wie hat sich die Verwendungshäufigkeit des Nachhaltigkeitsbegriffs zwischen 1890 und 2016 entwickelt?
+* Wie hat sich die Verwendungshäufigkeit des Nachhaltigkeitsbegriffs zwischen 1776 und 2016 entwickelt?
 * Wie haben sich in diesem Zeitraum die Kontexte verändert, in denen der Nachhaltigkeitsbegriff auftritt?
 * Wird der Nachhaltigkeitsbegriff konform zu einer wissenschaftlich-politischen Definition verwendet oder zunehmend wahllos, diffus und inhaltsleer gebraucht?
 
