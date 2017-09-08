@@ -8,7 +8,7 @@
 	* durchaus erwünschte Ausweitung auf ... (Milenniumsziele)
 * Kritik
 * Wird der Begriff der Nachhaltigkeit sinnvoll und klar definiert auf viele verschiedene Kontexte angewendet oder zunehmend wahllos, diffus und inhaltsleer gebraucht?
-	* → diachrone korpuslinguistische Analyse 1777-2016
+	* → diachrone korpuslinguistische Analyse 1776-2016
 
 ## Relevante Literatur
 
@@ -99,11 +99,11 @@
 
 ### Frequenzanalyse
 
-* Anfrage: `$l=/nachhaltig/i` ab dem Jahr 1777
-	* matcht alle Tokens, in deren Lemma die Zeichenkette „nachhaltig“ vorkommt (unabhängig von Groß- und Kleinschreibung), also etwa „nachhaltig“, „unnachhaltig“, „nachhaltigste“, „Nachhaltigkeit“, „UN-Nachhaltigkeitsziel“, „Weltnachhaltigkeitsgipfel“
+* Anfrage: `$l=/nachhaltig/i` ab dem Jahr 1776
+	* matcht alle Tokens, in deren Lemma die Zeichenkette "nachhaltig" vorkommt (unabhängig von Groß- und Kleinschreibung), also etwa "nachhaltig", "unnachhaltig", "nachhaltigste", "Nachhaltigkeit", "UN-Nachhaltigkeitsziel", "Weltnachhaltigkeitsgipfel"
 	* http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&date=1779%3A*&slice=10&score=fm&kbest=0&cutoff=&profile=1&format=hichart&groupby=%24p&eps=0
 	* http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=kwic&corpus=&limit=50&ctx=20&q=(%24l%3D%2Fnachhaltig%2F+||+%24l%3D%2FNachhaltigkeit%2F)+%23SEPARATE+%23asc_date[1600-00-00%2C2020-99-99]&_s=submit
-	* https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1777&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=full&sort=date_asc&limit=50
+	* https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1776&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=full&sort=date_asc&limit=50
 
 Insgesamt: 28.230 Treffer im Korpus
 * frühester Korpusbeleg: 1779
@@ -114,18 +114,18 @@ Insgesamt: 28.230 Treffer im Korpus
 	* aber: Korpusgröße variiert über die Zeit → Frequency per Million
 
 * [D*/public Time Series](http://kaskade.dwds.de/dstar/public/hist.perl?fmt=hist&pformat=svg&q=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&n=date%2Bclass&smooth=none&sg=1&grid=1&sl=10&w=0&wb=0&pr=0&xr=1779%3A2016&yr=0%3A*&psize=840%2C480)
-* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1777%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
+* DWDS-Wortverlaufskurve für „$l=/nachhaltig/i“, erstellt durch das Digitale Wörterbuch der deutschen Sprache, <https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1776%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi>, abgerufen am 05.09.2017.
 
 ### Kontextanalysen
 
 * [DWDS-Korpusbelege](https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1779&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=50)
 
-* 1777:1845
+* 1776:1845
 * 1846:1915
 * 1916:1985
 * 1986:2016
 
-#### 1777–1845
+#### 1776–1845
 
 ##### Frequenzanalyse
 
