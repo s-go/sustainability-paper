@@ -103,7 +103,7 @@
 %\usepackage{tikz} % für dot2tex
 %\usetikzlibrary{arrows,shapes} % für dot2tex
          %%% unbedingt nach tikz-Paketen laden %%%
-%\usepackage{gb4e} % Beispiel-Umgebung: \begin{exe} \ex \begin{xlist}
+\usepackage{gb4e} % Beispiel-Umgebung: \begin{exe} \ex \begin{xlist}
 %\usepackage{avm}             % für AVMs
 %\avmfont{\sc}                % allgemeine AVM-Schriftart
 %\avmvalfont{\it}             % Schriftart für Werte
@@ -141,10 +141,16 @@
 \usepackage{enumitem}
 \setlist{nosep}
 
+% \toprule \midrule \cmidrule \bottomrule
+\usepackage{booktabs}
+
+\usepackage{threeparttable}
+
 % URL definitions
 \usepackage{url}
 \urldef{\urlcorpussize}\url{http://kaskade.dwds.de/dstar/public/hist.perl?fmt=hist&pformat=svg&q=%24l%3D%2Fnachhaltig%2Fi&_s=submit&n=date%2Bclass&smooth=none&sg=1&grid=1&sl=10%2B7&w=0&wb=0&pr=0&xr=1777%3A2016&yr=0%3A*&psize=840%2C480&T=1}
 \urldef{\urlwortverlaufgesamt}\url{https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1776%3A2016&q1=%24l%3D%2Fnachhaltig%2Fi}
+\urldef{\urlwortverlaufA}\url{https://www.dwds.de/r/plot?view=3&norm=date%2Bclass&smooth=spline&genres=0&grand=1&slice=10&prune=0&window=0&wbase=0&logavg=0&logscale=0&xrange=1776%3A1845&q1=%24l%3D%2Fnachhaltig%2Fi}
 % \urldef{\urlXXX}\url{}
 
 
@@ -263,8 +269,8 @@ Zu beachten ist allerdings, dass die Textmenge im Korpus über die Zeit nicht ko
 \end{figure}
 \footnotetext{Erstellt mit D*/public Time Series: \urlcorpussize, abgerufen am 08.09.2017.}
 
-\section{Ergebnisse}
-\label{sec:ergebnisse}
+\section{Analysen}
+\label{sec:analysen}
 
 \subsection{Frequenzanalyse im Gesamtzeitraum}
 \label{subsec:freq-gesamt}
@@ -274,35 +280,158 @@ Insgesamt gibt es im Korpus 28.230 Belege für Tokens, in deren Lemma die Zeiche
 Abbildung~\ref{fig:nachhaltig-freq-1776-2016} zeigt die normalisierten Auftretenshäufigkeiten von \textit{nachhaltig} und verwandten Wörtern im Zeitraum zwischen 1776 und 2016. Während sich die Frequenz bis 1945 im Bereich zwischen 0 und 10 Vorkommen pro Million Tokens bewegt, steigt sie bis 1986 leicht auf 17,28 Vorkommen pro Million Tokens. Ab 1996 kommt es zu einem starken Anstieg der Verwendungshäufigkeit, die im Zeitraum 2006–2015 den Spitzenwert von 41.04 erreicht. Im Jahr 2016 fällt die normalisierte Frequenz schließlich auf 33,48 Vorkommen pro Million Tokens ab.
 
 \begin{figure}[h!]
-\centering
-\includegraphics[width=.8\textwidth]{img/nachhaltig-freq-1776-2016}
-\caption[corpus-size]{DWDS-Wortverlaufskurve für \lstinline|$l=/nachhaltig/i| im Zeitraum 1776–2016\footnotemark}
-\label{fig:nachhaltig-freq-1776-2016}
+	\centering
+	
+	\includegraphics[width=.8\textwidth]{img/nachhaltig-freq-1776-2016}
+	\caption[corpus-size]{DWDS-Wortverlaufskurve für \lstinline|$l=/nachhaltig/i| im Zeitraum 1776–2016\footnotemark}
+	\label{fig:nachhaltig-freq-1776-2016}
 \end{figure}
-\footnotetext{Erstellt durch das Digitale Wörterbuch der deutschen Sprache: \urlwortverlaufgesamt, abgerufen am 05.09.2017.}
+	\footnotetext{Erstellt durch das Digitale Wörterbuch der deutschen Sprache: \urlwortverlaufgesamt, abgerufen am 05.09.2017.}
+
+Tabelle~\ref{tab:freq-gesamt} zeigt die durchschnittlichen Frequenzen von \textit{nachhaltig} in den einzelnen Epochen dieser Untersuchung. Dabei bezeichnet $f_{abs}$ die absoluten Auftretenshäufigkeiten und $f_{norm}$ die normalisierten Frequenzen pro Million Tokens.
 
 \begin{table}[h!]
 \centering
 \renewcommand{\arraystretch}{1.5}
 
-\caption{Roh- und normalisierte Frequenzen (pro Million Tokens) von \textit{nachhaltig} in den untersuchten Epochen}
+\caption{Frequenzentwicklung von \textit{nachhaltig} in den untersuchten Epochen}
 \label{tab:freq-gesamt}
 
+\begin{threeparttable}
+
 \begin{tabular}{ccc}
-\textbf{Epoche} & $\mathbf{f_{roh}}$ & $\mathbf{f_{norm}}$ \\ \hline
+\textbf{Epoche} & \boldmath{$f_{abs}$} & \boldmath{$f_{norm}$} \\ \hline
 1776–1845 & 206 & 3,70 \\ \hline
-1846–1915 & 606 & 6,89 \\ \hline
+1846–1915 & 597 & 6,89 \\ \hline
 1916–1985 & 3071 & 12,91 \\ \hline
-1986–2016 & 24.356 & 29,63 \\ \hline
+1986–2016 & 24.356 & 29,63 \\ \hline\hline
+1776–2016 & 28.230 & 23,48 \\ \hline
 \end{tabular} 
 
+\begin{tablenotes}
+\footnotesize
+\setlength{\itemindent}{-1.2em}
+\item $f_{abs}$: absolute Frequenz
+\item $f_{norm}$: normalisierte Frequenz pro Million Tokens
+\end{tablenotes}
+
+\end{threeparttable}
 \end{table}
 
-Dieser Frequenzverlauf belegt einen deutlichen Anstieg der Verwendungshäufigkeit von \textit{nachhaltig} seit Mitte der 90er Jahre. Ob diese quantitative Entwicklung mit einer Bedeutungsverschiebung einhergeht, soll im Folgenden eine detaillierte Analyse der Kontexte und Kollokationen in den einzelnen Epochen zeigen.
+Der Frequenzverlauf belegt einen deutlichen Anstieg der Verwendungshäufigkeit von \textit{nachhaltig} seit Mitte der 90er Jahre. Ob diese quantitative Entwicklung mit einer Bedeutungsverschiebung einhergeht, soll im Folgenden eine detaillierte Analyse der Kontexte und Kollokationen in den einzelnen Epochen zeigen.
 
 \subsection{Detailanalyse 1776–1845}
 \label{subsec:detail-1776–1845}
 
+\subsubsection{Frequenzanalyse}
+
+In der gesamten Epoche von 1776 bis 1845 gibt es nur 206 Korpusbelege für \textit{nachhaltig} und verwandte Benennungen, was durchschnittlich 3,7 Instanzen pro Million Tokens entspricht. Tabelle~\ref{tab:freq-epoche1} zeigt die Frequenzentwicklung pro Zehnjahreszeitraum, Abbildung~\ref{fig:nachhaltig-freq-1776-1845} illustriert diese Entwicklung.
+
+\begin{table}[h!]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	
+	\caption{Frequenzentwicklung von \textit{nachhaltig} in der Epoche 1776–1845}
+	\label{tab:freq-epoche1}
+	
+	\begin{threeparttable}
+	
+	\begin{tabular}{ccc}
+	\textbf{Zeitraum} & \boldmath{$f_{abs}$} & \boldmath{$f_{norm}$} \\ \hline
+	1776–1785 & 2 & 0,24 \\ \hline
+	1786–1795 & 0 & 0,00 \\ \hline
+	1796–1805 & 2 & 0,23 \\ \hline
+	1806–1815 & 58 & 9,04 \\ \hline
+	1816–1825 & 4 & 0,86 \\ \hline
+	1826–1835 & 42 & 4,89 \\ \hline
+	1836–1845 & 98 & 8,89 \\ \hline\hline
+	1776–1845 & 206 & 3,70 \\ \hline
+	\end{tabular} 
+	
+	\begin{tablenotes}
+	\footnotesize
+	\setlength{\itemindent}{-1.2em}
+	\item $f_{abs}$: absolute Frequenz
+	\item $f_{norm}$: normalisierte Frequenz pro Million Tokens
+	\end{tablenotes}
+	
+	\end{threeparttable}
+\end{table}
+
+\begin{figure}[h!]
+	\centering
+	
+	\includegraphics[width=.8\textwidth]{img/nachhaltig-freq-1776-1845}
+	\caption[corpus-size]{DWDS-Wortverlaufskurve für \lstinline|$l=/nachhaltig/i| im Zeitraum 1776–1845\protect\footnotemark}
+	\label{fig:nachhaltig-freq-1776-1845}
+\end{figure}
+	\footnotetext{Erstellt durch das Digitale Wörterbuch der deutschen Sprache: \urlwortverlaufA, abgerufen am 05.09.2017.}
+
+Die beobachteten Gebrauchshäufigkeiten sind in diesem Zeitraum so niedrig, dass die beiden Maxima in der Frequenzverteilung auf einzelne, umfangreiche Werke zurückzuführen sind, in denen „nachhaltig“ sehr häufig verwendet wird. Dabei handelt es sich um \textit{Grundsätze der rationellen Landwirthschaft} von Albrecht Thaer (erschienen 1809) und \textit{Die römischen Päpste} von Leopold Ranke (erschienen 1836).
+
+Die Frequenzen sind auch zu niedrig, um eine aussagekräftige Kollokationsanalyse durchzuführen. Stattdessen sollen im Folgenden die Kontexte untersucht werden, in denen \textit{nachhaltig} in dieser Epoche auftritt.
+
+\subsubsection{Kontextanalyse}
+
+Die bei Weitem meisten Vorkommen von \textit{nachhaltig} im Zeitraum 1776–1845 zeigen eine allgemeinsprachliche Verwendung in den Bedeutungen „dauerhaft“ oder „lange Zeit anhaltend“. Interessant ist dabei, dass es erste Belege für einen Übergang in die Allgemeinsprache bereits deutlich vor dem Jahr 1800 gibt. Im Folgenden sollen einige typische Beispiel für eine allgemeinsprachliche Verwendung von \textit{nachhaltig} aufgeführt werden.
+
+\begin{exe}
+% TODO: Shorten!
+\ex „Der ordentliche Zehrpfennig reichte freilich nicht weit; aber der Spar- und der Nothpfennig waren desto nachhaltiger, und ließen uns unterwegens nicht darben.“ (Musäus, Johann Karl August: Physiognomische Reisen. Bd. 4. Altenburg, 1779.)
+\ex „Wilhelm hatte sich in diesem Falle befunden, er schien nunmehr zum erstenmal zu merken, daß er äußerer Hülfsmittel bedürfe, um nachhaltig zu wirken.“ (Goethe, Johann Wolfgang von: Wilhelm Meisters Lehrjahre. Bd. 4. Frankfurt (Main) u. a., 1796.)
+\ex „Es ist eine Krankheit unserer encyklopädischen Zeit, daß sie die Anstrengung eines ernsten nachhaltigen Denkens in ihrer Flüchtigkeit scheut, gleichwohl aber mit den Resultaten desselben äußerlich großthun möchte.“ (Allgemeine Zeitung. Beilage zu Nr. 106. Stuttgart, 15. April 1804.)
+\ex „nachhaltige Verstimmung“ (Jean Paul: Dritte Abteilung Briefe. 1822. In: Jean Pauls Sämtliche Werke. Historisch-kritische Ausgabe. Abt. 3, Bd. 8. Berlin, 1955.)
+\ex „nachhaltiges Interesse“ (Rumohr, Karl Friedrich von: Italienische Forschungen. T. 3. Berlin u. a., 1831.)
+\ex „eine stille, sehr nachhaltige Neigung“ (Mörike, Eduard: Maler Nolten. Bd. 2 Stuttgart, 1832.)
+\ex „eine nachhaltige gewaltige Hülfe“ (Ranke, Leopold von: Die römischen Päpste. Bd. 1. Berlin, 1834.)
+\ex „zu einer nachhaltigen Wirksamkeit“ (Ranke, Leopold von: Die römischen Päpste. Bd. 1. Berlin, 1834.)
+\ex „nachhaltiger Eindruck“ (Clausewitz, Carl von: Vom Kriege. Bd. 3. Berlin, 1834.)
+\ex „und sie [die Jünglinge] für Alles, was die Vor- und Mitwelt Großes hervorgebracht hat in Religion, Wissenschaft und Leben, für alle künftigen Tage des Wirkens nachhaltigst zu begeistern“ (Diesterweg, Adolph: Über das Verderben auf den deutschen Universitäten. Essen, 1836.)
+\ex „nachhaltiges Vertrauen“ (Ranke, Leopold von: Die römischen Päpste. Bd. 2. Berlin, 1836.)
+\ex „nachhaltigen Widerstand“ (Ranke, Leopold von: Die römischen Päpste. Bd. 2. Berlin, 1836.)
+\ex „nachhaltiger Herzstärkung“ (Varnhagen von Ense, Karl August: Denkwürdigkeiten und vermischte Schriften. Bd. 2. Mannheim, 1837.)
+\ex „nachhaltigen Humor und Eifer“ (Varnhagen von Ense, Karl August: Denkwürdigkeiten und vermischte Schriften. Bd. 2. Mannheim, 1837.)
+\ex „daß der Alte [...] erst zwar nachhaltig den Kopf schüttelte“ (Immermann, Karl: Münchhausen. Bd. 1. Düsseldorf, 1838.)
+\ex „der einzige Ausgangspunkt nachhaltiger Verbesserungen“ (Allgemeine Zeitung. Beilage zu Nr. 17. Stuttgart, 17. Januar 1840.)
+\ex „nachhaltiger Feindschaft“ (Allgemeine Zeitung. Beilage zu Nr. 63. Stuttgart, 3. März 1840.)
+\ex „nachhaltige Erheiterung“ (Allgemeine Zeitung. Beilage zu Nr. 22. Stuttgart, 22. Januar 1840.)
+\ex „ein dichtes nachhaltiges Feldgeschrei“ (Allgemeine Zeitung. Beilage zu Nr. 92. 01.04.1840.)
+\ex „nachhaltigen Schaden“ (Euler, Karl (Hrsg.): Jahrbücher der deutschen Turnkunst. Bd. 1. Danzig, 1843.)
+\ex „Auch ergiebt sich das Talent nur Solchen, welche etwas nachhaltig wollen.“ (Dahlmann, Friedrich Christoph: Geschichte der französischen Revolution bis auf die Stiftung der Republik. Leipzig, 1845.)
+\ex „nachhaltigere Folgen“ (Griesinger, Wilhelm: Die Pathologie und Therapie der psychischen Krankheiten, für Ärzte und Studierende. Stuttgart, 1845.)
+\end{exe}
+
+Eine Verwendung in der ursprünglichen fachwissenschaftlichen Bedeutung im Kontext der Forstwirtschaft kann dagegen nur vereinzelt nachgewiesen werden, wie in den Korpusbelegen~\ref{Baumstark1835forst} und \ref{Baumstark1835forst2}.
+
+\begin{exe}
+\ex „Die weitere Pflege der Holzpflanzen (§. 151.) hat zum Zwecke, in der kürzesten Zeit mit den geringsten Kosten, ohne die Waldwirthschaft zu zerstören, den größten Naturalertrag aus denselben zu beziehen und den Wald nachhaltig zu machen.“ (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+\label{Baumstark1835forst}
+\ex „Ohne Forstgründe in großer Flächenausdehnung ist ein nachhaltiger, das nöthige Holzquantum sichernder, Betrieb des Waldbaues nicht möglich“ (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+\label{Baumstark1835forst2}
+\end{exe}
+
+Bemerkenswert ist außerdem, dass bereits im Jahr 1835 eine erste Übertragung des Nachhaltigkeitsbegriffs auf andere natürliche Ressourcen zu beobachten ist, wie Korpusbeleg~\ref{Baumstark1835jagd} zeigt.
+
+\begin{exe}
+\ex „daß die Jagd nachhaltig, d. h. ohne daß sie mit dem Wildstande eingeht, betrieben und benutzt werden kann“ (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+\label{Baumstark1835jagd}
+\end{exe}
+
+Gleichzeitig wird selbst im landwirtschaftlichen Kontext \textit{nachhaltig} wiederholt in seiner allgemeinsprachlichen Bedeutung verwendet, insbesondere in Bezug auf betriebswirtschaftlich-finanzielle Aspekte (Belege~\ref{Thaer1810bwl}–\ref{Baumstark1835bwl}) oder auf die Wirksamkeit von Düngemitteln (Belege~\ref{Thaer1810dung}–\ref{Baumstark1835dung}):
+
+\begin{exe}
+\ex „nachhaltigen Vermehrung der Produktion“ (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809.)
+\label{Thaer1810bwl}
+\ex „wenn sich der Ertrag nach einer Reihe von Jahren nachhaltig vergrößert.“ (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 1. Berlin, 1809.)
+\ex „Man muß daher als ordentlicher Wirth suchen [...] den Erwerb so sicher und dauerhaft als möglich zu erhalten, d. h. die Wirthschaft nachhaltig einzurichten und zu führen“ (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+\label{Baumstark1835bwl}
+\ex „und somit strohigen Dünger macht, der zwar keine so schnelle Wirkung wie der Pferch äußert, aber ungleich nachhaltiger ist“ (Thaer, Albrecht: Grundsätze der rationellen Landwirthschaft. Bd. 2. Berlin, 1810.)
+\label{Thaer1810dung}
+\ex „um den Dünger nachhaltiger zu machen“ (Baumstark, Eduard: Kameralistische Encyclopädie. Heidelberg u. a., 1835.)
+\label{Baumstark1835dung}
+\end{exe}
+
+Zusammenfassend ergibt die Kontextanalyse, dass die Benennung \textit{nachhaltig} bereits von 1776 bis 1845 vorwiegend in ihrer allgemeinsprachlichen Bedeutung verwendet wird, teilweise selbst in Fachpublikationen der Land- und Forstwirtschaft. Dabei zeigen die verschiedenen Belege aus der \textit{Kameralistischen Encyclopädie}, wie die Benennung in einer einzigen Publikation sowohl fach- als auch allgemeinsprachlich gebraucht wird.
 
 
 \section{Diskussion}
@@ -319,9 +448,9 @@ Dieser Frequenzverlauf belegt einen deutlichen Anstieg der Verwendungshäufigkei
 
 % TODO: Add references
 
-\bibitem[Jurish(2015)]{Jurish2015} Jurish, B. (2015). DiaCollo: On the trail of diachronic collocations. In \textit{Proceedings of the CLARIN Annual Conference}. 28–31.
+\bibitem[Jurish(2015)]{Jurish2015} Jurish, B. (2015). DiaCollo: On the trail of diachronic collocations. In \textit{Proceedings of the CLARIN Annual Conference}, 28–31.
 \bibitem[Geyken(2007)]{Geyken2007} Geyken, A. (2007). The DWDS corpus: A reference corpus for the German language of the 20th century. In: Fellbaum, C. (Hg.): \textit{Collocations and Idioms: Linguistic, lexicographic, and computational aspects.} London, 23–41.
-\bibitem[Geyken et al.(2011)]{Geyken2011} Geyken, A., Haaf, S., Jurish, B., Schulz, M., Steinmann, J., Thomas, C., \& Wiegand, F. (2011). Das Deutsche Textarchiv: Vom historischen Korpus zum aktiven Archiv. \textit{Digitale Wissenschaft}, 157.
+\bibitem[Geyken et al.(2011)]{Geyken2011} Geyken, A., Haaf, S., Jurish, B., Schulz, M., Steinmann, J., Thomas, C., \& Wiegand, F. (2011). Das Deutsche Textarchiv: Vom historischen Korpus zum aktiven Archiv. In \textit{Digitale Wissenschaft}, 157–162.
 \bibitem[Zürcher(1965)]{Zürcher1965} Zürcher, U. (1965). \textit{Die Idee der Nachhaltigkeit unter spezieller Berücksichtigung der Gesichtspunkte der Forsteinrichtung.} Dissertation, ETH Zürich.
 
 \end{thebibliography}

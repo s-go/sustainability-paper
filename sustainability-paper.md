@@ -100,7 +100,7 @@
 ### Frequenzanalyse
 
 * Anfrage: `$l=/nachhaltig/i` ab dem Jahr 1776
-	* matcht alle Tokens, in deren Lemma die Zeichenkette "nachhaltig" vorkommt (unabhängig von Groß- und Kleinschreibung), also etwa "nachhaltig", "unnachhaltig", "nachhaltigste", "Nachhaltigkeit", "UN-Nachhaltigkeitsziel", "Weltnachhaltigkeitsgipfel"
+	* matcht alle Tokens, in deren Lemma die Zeichenkette „nachhaltig“ vorkommt (unabhängig von Groß- und Kleinschreibung), also etwa „nachhaltig“, „unnachhaltig“, „nachhaltigste“, „Nachhaltigkeit“, „UN-Nachhaltigkeitsziel“ oder „Weltnachhaltigkeitsgipfel“
 	* http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&date=1779%3A*&slice=10&score=fm&kbest=0&cutoff=&profile=1&format=hichart&groupby=%24p&eps=0
 	* http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=kwic&corpus=&limit=50&ctx=20&q=(%24l%3D%2Fnachhaltig%2F+||+%24l%3D%2FNachhaltigkeit%2F)+%23SEPARATE+%23asc_date[1600-00-00%2C2020-99-99]&_s=submit
 	* https://www.dwds.de/r?q=%24l%3D%2Fnachhaltig%2Fi&corpus=public&date-start=1776&date-end=2016&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=full&sort=date_asc&limit=50
@@ -138,10 +138,10 @@ Insgesamt: 28.230 Treffer im Korpus
 ##### Kontexte
 
 * Belege für Übergang in Allgemeinsprache, erste Belege dafür aber bereits vor 1800, in den Bedeutungen „dauerhaft“ oder „lange Zeit andauernd“:
-	* „Der ordentliche Zehrpfennig reichte freilich nicht weit; aber der Spar- und der Nothpfennig waren deſto nachhaltiger, und ließen uns unterwegens nicht darben.“ (Musäus, Johann Karl August: Physiognomische Reisen. Bd. 4. Altenburg, 1779. #303)
-	* „Wilhelm hatte ſich in dieſem Falle befunden, er ſchien nunmehr zum erſtenmal zu merken, daß er äußerer Hülfsmittel bedürfe, um nachhaltig zu wirken.“ (Goethe, Johann Wolfgang von: Wilhelm Meisters Lehrjahre. Bd. 4. Frankfurt (Main) u. a., 1796. #198)
-	* „Es ist eine Krankheit unserer encyklopädischen Zeit, daß sie die Anstrengung eines ernsten nachhaltigen Denkens in ihrer Flüchtigkeit scheut, gleichwohl aber mit den Resultaten desselben äußerlich großthun möchte.“ (Allgemeine Zeitung. Beilage zu Nr. 106. Stuttgart, 15. April 1804. #10)
-	* „ So iſt die Sprache, aus einzelnen Empfindungslauten, bald ſprudelnd wie ein nachhaltiger Quell, bald ſtillſtehend wie ein bewegungsloſes Waſſer. „ (Jahn, Friedrich Ludwig: Deutsches Volksthum. Lübeck, 1810. #22)
+	* „Der ordentliche Zehrpfennig reichte freilich nicht weit; aber der Spar- und der Nothpfennig waren desto nachhaltiger, und ließen uns unterwegens nicht darben.“ (Musäus, Johann Karl August: Physiognomische Reisen. Bd. 4. Altenburg, 1779.)
+	* „Wilhelm hatte sich in diesem Falle befunden, er schien nunmehr zum erstenmal zu merken, daß er äußerer Hülfsmittel bedürfe, um nachhaltig zu wirken.“ (Goethe, Johann Wolfgang von: Wilhelm Meisters Lehrjahre. Bd. 4. Frankfurt (Main) u. a., 1796.)
+	* „Es ist eine Krankheit unserer encyklopädischen Zeit, daß sie die Anstrengung eines ernsten nachhaltigen Denkens in ihrer Flüchtigkeit scheut, gleichwohl aber mit den Resultaten desselben äußerlich großthun möchte.“ (Allgemeine Zeitung. Beilage zu Nr. 106. Stuttgart, 15. April 1804.)
+	* „So ist die Sprache, aus einzelnen Empfindungslauten, bald sprudelnd wie ein nachhaltiger Quell, bald stillstehend wie ein bewegungsloses Wasser.“ (Jahn, Friedrich Ludwig: Deutsches Volksthum. Lübeck, 1810.)
 	* „nachhaltige Verstimmung“ (Jean Paul: Dritte Abteilung Briefe. 1822. In: Jean Pauls Sämtliche Werke. Historisch-kritische Ausgabe. Abt. 3, Bd. 8. Berlin, 1955.)
 	* „nachhaltiges Interesse“ (Rumohr, Karl Friedrich von: Italienische Forschungen. T. 3. Berlin u. a., 1831.)
 	* „eine stille, sehr nachhaltige Neigung“ (Mörike, Eduard: Maler Nolten. Bd. 2 Stuttgart, 1832.)
@@ -459,6 +459,13 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 ----
 
 ## Diskussion
+
+* Verwendung von Fachbegriffen in der Allgemeinsprache, mit weniger spezifischer Definition: üblich
+* zusätzlich: Definition von nachhaltig selbst in den beteiligten Fachkreisen weder besonders spezifisch noch einheitlich
+* außerdem: allgemeinsprachliche Verwendung kein neues Phänomen, sondern bereits seit den ersten Korpusbelegen zu beobachten
+* problematisch:
+	* gemischte fach- und allgemeinsprachliche Verwendung innerhalb einer Publikation
+	* Verwendung mit unklarer Definition
 
 ## Zusammenfassung
 
