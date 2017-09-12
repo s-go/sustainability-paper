@@ -108,9 +108,9 @@
 Insgesamt: 28.230 Treffer im Korpus
 * frühester Korpusbeleg: 1779
 * spätester Korpusbeleg: 2016
-* allein im Zeitraum 1987–2016 (seit Erscheinen des Brundtland-Berichts): 24.166 Treffer
-	* 29/237: 12% des Zeitraums
-	* 24166/28160: 86% der Treffer
+* allein im Zeitraum 1986–2016: 24356 Treffer
+	* 31/241: 13% des Zeitraums
+	* 24356/28230: 86% der Treffer
 	* aber: Korpusgröße variiert über die Zeit → Frequency per Million
 
 * [D*/public Time Series](http://kaskade.dwds.de/dstar/public/hist.perl?fmt=hist&pformat=svg&q=%24l%3D%2F%5BNn%5Dachhaltig%2F&_s=submit&n=date%2Bclass&smooth=none&sg=1&grid=1&sl=10&w=0&wb=0&pr=0&xr=1779%3A2016&yr=0%3A*&psize=840%2C480)
@@ -344,7 +344,7 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 		* „Auch mit ihrer Inszenierung von Hanns Eislers „Johann Faustus“ prägte sie nachhaltig die Entwicklung des freien Theaters.“ (Der Tagesspiegel, 03.03.2005)
 		* „Doch Martin Kind ist entschlossen, und so wird sein Name möglicherweise schon bald für eine Entwicklung stehen, die den deutschen Fußball nachhaltig ändern könnte.“ (Die Zeit, 20.11.2008, Nr. 48)
 		* „Die wirtschaftliche Entwicklung ist erfreulicherweise viel kräftiger und viel nachhaltiger, als es im Frühjahr den Anschein hatte.“ (Die Zeit, 07.10.2010 (online))
-		* „In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen „erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten“ zu behindern.“ (Die Zeit, 06.11.2015 (online))
+		* „In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen „erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten“ zu behindern.“ (Die Zeit, 06.11.2015 (online))der
 2. Wachstum
 	* fachsprachlich
 		* „Am Zuckerhut hatte auch Weltbank-Präsident Lewis Preston versprochen, seine Behörde müsse „eine führende Rolle bei der Einleitung einer neuen Ära internationaler Zusammenarbeit mit dem Ziel eines nachhaltigen, ökologisch verträglichen Wachstums einnehmen“.“ (Die Zeit, 16.10.1992, Nr. 43)
