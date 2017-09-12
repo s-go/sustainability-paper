@@ -299,7 +299,7 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 * [Korpusbelege](https://www.dwds.de/r?q=NEAR%28+%28%24l%3D%2F%28%3Fi%3Anachhaltig%29%2F%29+%3D1%2C+%28%24l%3D%40%27Wirkung%27%29+%3D2%2C+8%29&corpus=public&date-start=1916&date-end=1985&genre=Belletristik&genre=Wissenschaft&genre=Gebrauchsliteratur&genre=Zeitung&format=max&sort=date_asc&limit=100)
 
 1. Zinssenkung
-	* „Einzige Therapie gegen den Gewichtsverlust der deutschen Wirtschaft ist nach Meinung des Deutschen Instituts für Wirtschaftsforschung (DIW) eine nachhaltige Zinssenkung.“ (Berliner Zeitung, 07.01.1994)
+	* „Unter Berücksichtigung dieser Aussichten sind die Möglichkeiten einer nachhaltigen Zinssenkung gering.“ (Die Zeit, 12.10.1962, Nr. 41)
 2. Eindruck
 	* „Unter dem nachhaltigen Eindruck der Ereignisse von 1849 rückt Marx noch entschiedener von der „politischen Intervention“ ab.“ (Ball, Hugo: Zur Kritik der deutschen Intelligenz. Bern, 1919.)
 	* „Die unmittelbarsten und nachhaltigsten Eindrücke von Schliemanns Leben und seinen Reisen in die griechische Vergangenheit sind immer noch aus Schliemanns Schriften selber zu gewinnen.“ (Die Zeit, 26.05.1972, Nr. 21)
