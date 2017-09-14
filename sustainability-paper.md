@@ -344,7 +344,7 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 		* „Auch mit ihrer Inszenierung von Hanns Eislers „Johann Faustus“ prägte sie nachhaltig die Entwicklung des freien Theaters.“ (Der Tagesspiegel, 03.03.2005)
 		* „Doch Martin Kind ist entschlossen, und so wird sein Name möglicherweise schon bald für eine Entwicklung stehen, die den deutschen Fußball nachhaltig ändern könnte.“ (Die Zeit, 20.11.2008, Nr. 48)
 		* „Die wirtschaftliche Entwicklung ist erfreulicherweise viel kräftiger und viel nachhaltiger, als es im Frühjahr den Anschein hatte.“ (Die Zeit, 07.10.2010 (online))
-		* „In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen „erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten“ zu behindern.“ (Die Zeit, 06.11.2015 (online))der
+		* „In einem Positionspapier warnen der Deutsche Skiverband (DSV) und der Snowboard-Verband Deutschland (SVD) das IOC davor, durch seine Entscheidungen „erfolgreiche Prozesse zur nachhaltigen und systematischen Entwicklung unterschiedlicher Sportarten“ zu behindern.“ (Die Zeit, 06.11.2015 (online))
 2. Wachstum
 	* fachsprachlich
 		* „Am Zuckerhut hatte auch Weltbank-Präsident Lewis Preston versprochen, seine Behörde müsse „eine führende Rolle bei der Einleitung einer neuen Ära internationaler Zusammenarbeit mit dem Ziel eines nachhaltigen, ökologisch verträglichen Wachstums einnehmen“.“ (Die Zeit, 16.10.1992, Nr. 43)
