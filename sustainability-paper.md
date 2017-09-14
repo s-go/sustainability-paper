@@ -22,7 +22,7 @@
 ### Ursprung
 
 * „Demnach geht die älteste Verwendung des Begriffs auf das Jahr 1713 zurück, wo in einem Schriftstück eine ‚continuierliche, beständige und nachhaltige Nutzung [des Waldes]‘ verlangt wird.“ (Ninck 1997: 43; Zürcher 1965: 99)
-* „In Theodor Hartigs ‚forstwissenschaftlichem Conversations-Lexikon‘ von 1836 heisst es: ‚Unter dem nachhaltigen Holzertrag wird eine dauernd, jährlich gleich große Nutzung verstanden. Der Forstbetrieb soll derart gestaltet sein, daß ein gleichmässiger Holzanfall für alle Zukunft gesichert ist.‘“ (nach Zürcher 1965: 100)
+* „In Theodor Hartigs ‚forstwissenschaftlichem Conversations-Lexikon‘ von 1836 heisst es: ‚Unter dem nachhaltigen Holzertrag wird eine dauernd, jährlich gleich große Nutzung verstanden. Der Forstbetrieb soll derart gestaltet sein, daß ein gleichmäßiger Holzanfall für alle Zukunft gesichert ist.‘“ (nach Zürcher 1965: 100)
 * „Dem entsprechend sollten die Waldungen so bewirtschaftet werden, dass (...) die Nachkommenschaft wenigstens ebensoviel Vortheil daraus ziehen kann, wie sich die jetzt lebende Generation zueignet (Hartig 1804, Einleitung S. 1).“ (Ohlmeier & Brunold 2015: 7)
 * „Im Zuge einer sich allmählich etablierenden Forstwissenschaft in Europa brachten neben v. Carlowitz und Hartig auch weitere Vertreter der Forstwirtschaft den deutschen Nachhaltigkeitsbegriff mit der gemeinsam geteilten Kernbedeutung auf den Weg, dass nur genutzt werden sollte, was im gleichen Zeitraum wieder nachwächst.“ (Ohlmeier & Brunold 2015: 7)
 
