@@ -86,14 +86,14 @@
 
 ### Fragestellungen
 
-* Wie hat sich die Verwendungshäufigkeit des Nachhaltigkeitsbegriffs zwischen 1777 und 2016 entwickelt?
+* Wie hat sich die Verwendungshäufigkeit des Nachhaltigkeitsbegriffs zwischen 1776 und 2016 entwickelt?
 * Wie haben sich in diesem Zeitraum die Kontexte verändert, in denen der Nachhaltigkeitsbegriff auftritt?
 * Wird der Nachhaltigkeitsbegriff konform zu einer wissenschaftlich-politischen Definition verwendet oder zunehmend wahllos, diffus und inhaltsleer gebraucht?
 
 ## Methodik
 
 * diachrone Untersuchung
-* Korpora: Referenz- und Zeitungskorpora (aggregiert): DTA, DWDS, Newspapers (1777-2016)
+* Korpora: Referenz- und Zeitungskorpora (aggregiert): DTA, DWDS, Newspapers (1776-2016)
 * verwendete Analysewerkzeuge:
 	* DiaCollo (Jurish XXXX)
 	* D* OpenSearch API
@@ -191,7 +191,7 @@ Insgesamt: 28.230 Treffer im Korpus
 	* „Die bedeutende, nachhaltige und stetige Vermehrung der Production und Consumtion vermehrt die Steuer-Entrichtungs-Fähigkeit in gleichem Verhältniß.“ (List, Friedrich: Das deutsche National-Transport-System in volks- und staatswirthschaftlicher Beziehung. Altona u. a., 1838.)
 
 ##### Kollokationen
-http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=submit&date=1777%3A1845&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
+http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=submit&date=1776%3A1845&slice=0&score=ld&kbest=0&cutoff=&profile=2&format=html&groupby=&eps=0
 
 * Betrieb
 http://kaskade.dwds.de/dstar/public/dstar.perl?fmt=html&corpus=&limit=60&ctx=8&q=NEAR%28+%28%24l%3D%2F%5BNn%5Dachhaltig%2F%29+%3D1%2C+%28%24l%3D%40%27Betrieb%27+WITH+%24p%3D%40%27NN%27%29+%3D2%2C+8%29+%23SEPARATE+%23asc_date%5B1779-00-00%2C1850-99-99%5D&_s=submit
@@ -304,6 +304,7 @@ http://kaskade.dwds.de/dstar/public/diacollo/?query=%24l%3D%2Fnachhaltig%2Fi&_s=
 
 1. Zinssenkung
 	* „Unter Berücksichtigung dieser Aussichten sind die Möglichkeiten einer nachhaltigen Zinssenkung gering.“ (Die Zeit, 12.10.1962, Nr. 41)
+	* „Einzige Therapie gegen den Gewichtsverlust der deutschen Wirtschaft ist nach Meinung des Deutschen Instituts für Wirtschaftsforschung (DIW) eine nachhaltige Zinssenkung.“ (Berliner Zeitung, 07.01.1994)
 2. Eindruck
 	* „Unter dem nachhaltigen Eindruck der Ereignisse von 1849 rückt Marx noch entschiedener von der „politischen Intervention“ ab.“ (Ball, Hugo: Zur Kritik der deutschen Intelligenz. Bern, 1919.)
 	* „Die unmittelbarsten und nachhaltigsten Eindrücke von Schliemanns Leben und seinen Reisen in die griechische Vergangenheit sind immer noch aus Schliemanns Schriften selber zu gewinnen.“ (Die Zeit, 26.05.1972, Nr. 21)
